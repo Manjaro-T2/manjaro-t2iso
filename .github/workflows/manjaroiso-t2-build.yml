@@ -40,12 +40,12 @@ jobs:
       - id: image-build
         uses: manjaro/manjaro-iso-action@main
         with:
-          iso-profiles-repo: "https://github.com/RishonDev/manjaroiso-t2"
+          iso-profiles-repo: "https://${{ secrets.GH_TOKEN }}@github.com/RishonDev/manjaroiso-t2"
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
           version: "26.0-t2"
-          kernel: linux6122-t2
+          kernel: linux612-t2
           code-name: "ArhLinh-T2"
           # providing a release-tag allows for github releases
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
