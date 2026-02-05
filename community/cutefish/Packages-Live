@@ -7,5 +7,5 @@ manjaro-live-systemd
 mkinitcpio-nfs-utils
 nbd
 clonezilla
-linux60-t2-zfs
+#linux612-t2-zfs
 zfs-utils

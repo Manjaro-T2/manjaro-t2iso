@@ -1,6 +1,7 @@
 git
-linux60-t2-broadcom-wl
-linux60-t2-r8168
+#linux60-t2-broadcom-wl
+brcmfmac
+#linux60-t2-r8168
 maia-console
 manjaro-architect-launcher
 manjaro-hotfixes
