@@ -11,7 +11,7 @@ QT_AUTO_SCREEN_SCALE_FACTOR=1
 
 # To use QGnomePlaform with AdwaitaQt style, comment out the following keys:
 
-# Available options: gtk2, gnome, kde, qt5ct, xcb
+# Available options: gnome, kde, qt5ct, xcb
 
 # Note: Don't use in combination with QT_STYLE_OVERRIDE
 QT_QPA_PLATFORMTHEME="qt5ct"

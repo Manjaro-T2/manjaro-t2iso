@@ -98,9 +98,14 @@ ttf-dejavu
 ### system
 accountsservice
 gnome-keyring
-gtk-engines
+#gtk-engines
 gtk-engine-murrine
 gtk3
+gtk4
+adwaita-icon-theme
+lxappearance
+lxappearance-obconf
+obconf-qt
 perl-file-mimeinfo
 polkit
 python-pyxdg

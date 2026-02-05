@@ -115,8 +115,11 @@ accountsservice
 dconf
 gnome-keyring
 gtk3
+gtk4
+adwaita-icon-theme
+lxappearance
 gtk-engine-murrine
-gtk-engines
+#gtk-engines
 polkit
 python-pyxdg
 squashfs-tools
