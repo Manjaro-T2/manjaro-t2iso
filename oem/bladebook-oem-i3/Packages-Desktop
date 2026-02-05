@@ -99,7 +99,8 @@ openresolv
 openssh
 p7zip
 palemoon-bin
-pamac
+#pamac
+yay
 patch
 patchutils
 pcmanfm
