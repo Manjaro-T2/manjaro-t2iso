@@ -67,14 +67,15 @@ terminus-font
 
 ## Package management
 #>extra appimagelauncher
-pamac-gtk
-pamac-tray-icon-plasma
-pamac-cli
+#pamac-gtk
+#pamac-tray-icon-plasma
+#pamac-cli
+yay
 #>extra apparmor
 #>extra snapd
 #>extra snapd-glib
 #>extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra pamac-flatpak-plugin
 #discover-snap
 #discover
 packagekit-qt5

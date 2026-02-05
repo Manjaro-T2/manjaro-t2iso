@@ -43,10 +43,11 @@ adobe-source-han-sans-cn-fonts
 #>x86_64 >extra steam-manjaro
 
 ## Package management
-pamac-gtk
-pamac-gnome-integration
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#pamac-gtk
+#pamac-gnome-integration
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
+yay
 
 ## Printing
 >extra manjaro-printer

@@ -68,12 +68,12 @@ terminus-font
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
-pamac-gtk
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
-
+#pamac-gtk
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
+yay
 ## Printing
 >extra manjaro-printer
 

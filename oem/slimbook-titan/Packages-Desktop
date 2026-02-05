@@ -264,11 +264,12 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xorg-mkfontscale
-linux60-t2-nvidia
+#linux60-t2-nvidia
 nvidia-prime
 xf86-video-amdgpu
 optimus-manager-plasma
-linux60-t2-acpi_call
+#linux60-t2-acpi_call
+mesa
 
 ## Desktop Utils
 perl-file-mimeinfo
