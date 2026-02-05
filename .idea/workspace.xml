@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="" />
+    <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm-mate/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm-mate/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/cinnamon/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/plasma-mobile/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/plasma-mobile/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/nxd/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/nxd/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Root" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

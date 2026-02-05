@@ -57,10 +57,10 @@ pciutils
 perl
 procps-ng
 psmisc
-reiserfsprogs
+
 sed
 shadow
-spectre-meltdown-checker
+
 s-nail
 sudo
 sysfsutils
@@ -75,7 +75,7 @@ lvm2
 mdadm
 nfs-utils
 rsync
-systemd-fsck-silent
+
 systemd-sysvcompat
 tlp
 wpa_supplicant
