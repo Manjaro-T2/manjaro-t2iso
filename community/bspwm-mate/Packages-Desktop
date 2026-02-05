@@ -78,8 +78,13 @@ mygtkmenui
 mozo
 network-manager-applet
 pa-applet
-pamac
-pulseaudio-ctl
+yay
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 rofi-scripts
 rootmenu
 sxhkd
@@ -156,7 +161,7 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 openresolv
-manjaro-pulse
+
 
 # Themes
 xcursor-breeze

@@ -40,7 +40,7 @@ manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
 manjaro-hotfixes
-manjaro-pulse
+
 manjaro-settings-manager-notifier
 manjaro-hello
 >extra snapd
@@ -60,9 +60,12 @@ numlockx
 openresolv
 pamac-gtk
 powertop
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 alsa-utils
 avahi
 networkmanager

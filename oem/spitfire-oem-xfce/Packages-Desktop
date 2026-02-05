@@ -25,11 +25,12 @@ gst-plugins-good
 gst-plugins-ugly
 libdvdcss
 >multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-equalizer-ladspa
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 
 ## Connect Packages
 android-tools
@@ -174,7 +175,7 @@ xfce4-taskmanager
 >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin-gtk3
 xfce4-xkb-plugin
-xfce4-pulseaudio-plugin
+#xfce4-pulseaudio-plugin
 pavucontrol
 zensu
 

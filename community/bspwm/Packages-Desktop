@@ -30,13 +30,13 @@
 >extra lxinput-gtk3
 >extra manjaro-browser-settings
 >extra manjaro-bspwm-settings
->extra manjaro-pulse
+>extra
 >extra mate-notification-daemon
 >extra mate-polkit
 >extra mygtkmenui
 >extra pavucontrol
 >extra pcmanfm-gtk3
->extra pulseaudio-ctl
+#>extra pulseaudio-ctl
 >extra timeshift
 >extra zathura-pdf-poppler
 >extra xreader

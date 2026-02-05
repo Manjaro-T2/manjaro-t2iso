@@ -80,7 +80,11 @@ plymouth-shim
 polkit-kde-agent
 powerdevil
 psensor
-pulseaudio-bluetooth
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
 qmlkonsole
 qqc2-breeze-style
 qt5-tools

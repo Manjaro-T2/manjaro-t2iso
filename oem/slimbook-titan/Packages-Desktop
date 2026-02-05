@@ -29,7 +29,7 @@ libcanberra
 >multilib lib32-libcanberra
 libdvdcss
 manjaro-pipewire
-phonon-qt5-gstreamer
+
 easyeffects
 
 ## Btrfs

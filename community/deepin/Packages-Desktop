@@ -87,7 +87,7 @@ manjaro-application-utility
 manjaro-hello
 manjaro-hotfixes
 >extra manjaro-printer
-manjaro-pulse
+
 manjaro-settings-manager-notifier
 mesa-demos
 mlocate
@@ -111,9 +111,12 @@ patch
 pkg-config
 >extra poppler-data
 >extra powertop
->extra pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+extra> bluez
+extra> bluez-utils
+
 >extra redshift
 screenfetch
 >basic squashfs-tools

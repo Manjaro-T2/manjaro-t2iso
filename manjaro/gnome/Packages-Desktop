@@ -23,7 +23,7 @@ grub-btrfs
 >extra manjaro-alsa
 >extra manjaro-gstreamer
 >extra manjaro-modem
->extra manjaro-pulse
+>extra
 
 ## Fonts
 ttf-dejavu

@@ -29,11 +29,13 @@ libcanberra-pulse
 >multilib lib32-libcanberra-pulse
 libdvdcss
 manjaro-alsa
-manjaro-pulse
-phonon-qt5-gstreamer
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 
 ## Connect Packages
 android-tools

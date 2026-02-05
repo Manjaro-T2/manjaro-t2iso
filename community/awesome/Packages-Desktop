@@ -25,10 +25,15 @@ networkmanager
 >extra gst-plugins-ugly
 >extra libdvdcss
 >extra >multilib manjaro-alsa
->extra manjaro-pulse
->extra pulseaudio-bluetooth
->extra pulseaudio-ctl
->extra pulseaudio-zeroconf
+#>extra
+#>extra pulseaudio-bluetooth
+#>extra pulseaudio-ctl
+#>extra pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
 
 ## Connect Packages
 >extra android-tools

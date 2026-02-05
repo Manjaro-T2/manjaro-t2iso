@@ -75,7 +75,7 @@ manjaro-cinnamon-settings
 manjaro-hello
 manjaro-hotfixes
 >extra manjaro-printer
-manjaro-pulse
+
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
@@ -115,9 +115,12 @@ pkg-config
 >extra popsicle
 >extra powertop
 #>extra pragha
->extra pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 python-ptyprocess
 screenfetch
 >extra snapd

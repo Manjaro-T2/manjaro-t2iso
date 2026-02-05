@@ -52,8 +52,12 @@
 firefox
 
 ## bluetooth device management
-blueman
-pulseaudio-bluetooth
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 
 ## audio support
 alsa-firmware
@@ -63,10 +67,12 @@ pamixer
 paprefs
 pavucontrol-qt
 playerctl
-pulseaudio
-pulseaudio-alsa
-pulseaudio-ctl
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 
 ## edition theming and settings
 manjaro-icons
