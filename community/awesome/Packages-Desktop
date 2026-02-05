@@ -81,12 +81,14 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 
 ## Package management
 >extra apparmor
-#>extra gnome-software-snap
->extra flatpak
-pamac
+>extra gnome-software-snap
+#>extra flatpak
+#pamac
+yay
+paru
 >extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
+#>extra pamac-snap-plugin
 >extra appimagelauncher
 
 ## Java
@@ -152,8 +154,8 @@ network-manager-applet
 
 ## Themes
 >extra manjaro-wallpapers-18.0
-# >extra wallpapers-2018  # removed to reduce iso size (-15MB)
-# >extra wallpapers-juhraya  # removed to reduce iso size (~20MB)
+ >extra wallpapers-2018  # removed to reduce iso size (-15MB)
+ >extra wallpapers-juhraya  # removed to reduce iso size (~20MB)
 >extra gnome-themes-standard
 grub-theme-manjaro
 >extra matcha-gtk-theme

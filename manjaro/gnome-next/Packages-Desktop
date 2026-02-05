@@ -43,11 +43,8 @@ adobe-source-han-sans-cn-fonts
 ## Games
 
 ## Package management
-pamac-gnome-integration
->extra pamac-flatpak-plugin
-pamac-gtk
-#>extra pamac-snap-plugin
-
+yay
+paru
 ## Printing
 >extra manjaro-printer
 
@@ -81,7 +78,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-#gnome-software                    # pamac-gtk used instead
+gnome-software
 gnome-system-monitor
 #gnome-text-editor                  # gedit included instead
 gnome-user-docs

@@ -86,9 +86,11 @@ terminus-font
 
 ## Package management
 #appimagelauncher
-pamac-gtk
-pamac-tray-appindicator
-pamac-cli
+#pamac-gtk
+#pamac-tray-appindicator
+#pamac-cli
+yay
+paru
 >extra apparmor
 >extra snapd
 >extra snapd-glib
