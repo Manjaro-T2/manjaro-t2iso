@@ -40,7 +40,7 @@ jobs:
       - id: image-build
         uses: manjaro/manjaro-iso-action@main
         with:
-          iso-profiles-repo: "https://github.com/NoaHimesaka1873/manjaroiso-t2"
+          iso-profiles-repo: "https://github.com/RishonDev/manjaroiso-t2"
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
