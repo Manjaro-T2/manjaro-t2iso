@@ -11,14 +11,14 @@ zfs-utils
 linux612-t2-headers
 zfs-dkms
 libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
->multilib lib32-libva-vdpau-driver
+mesa
+libva
+>multilib lib32-libva
 libxaw
 libxpm
 libxvmc
-mesa-vdpau
->multilib lib32-mesa-vdpau
+mesa
+>multilib lib32-mesa
 >multilib lib32-libxvmc
 >multilib lib32-primus
 opencl-mesa
@@ -41,4 +41,4 @@ xf86-video-fbdev
 xf86-video-intel
 xf86-video-sisusb
 xf86-video-vesa
-xf86-video-vmware
+

@@ -64,7 +64,7 @@ manjaro-browser-settings
 manjaro-cinnamon-settings
 >extra manjaro-documentation-en
 manjaro-hello
-manjaro-hotfixes
+
 >extra manjaro-printer
 
 manjaro-settings-manager-notifier
@@ -127,7 +127,7 @@ ttf-bitstream-vera
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra udiskie
-vi
+vim
 >extra vlc
 >extra xcursor-chameleon-pearl-deepin
 xdg-su

@@ -53,7 +53,7 @@ pamac-gtk
 
 ## GNOME group
 >extra baobab
->extra cheese
+>extra gnome-screenshot
 #eog                               # gthumb included instead
 #epiphany                          # Firefox included as default browser
 evince
@@ -156,27 +156,27 @@ gnome-tweaks
 
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
->extra gnome-shell-extension-arcmenu
->extra gnome-shell-extension-custom-accent-colors
+>extra gnome-shell-extension-arc-menu
+#>extra gnome-shell-extension-custom-accent-colors
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-dash-to-panel
 >extra gnome-shell-extension-gtk4-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
->extra gnome-shell-extension-material-shell
->extra gnome-shell-extension-x11gestures
+#>extra gnome-shell-extension-material-shell
+#>extra gnome-shell-extension-x11gestures
 
 ## Themes
 adw-gtk-theme
->extra gdm-plymouth
+#>extra gdm-plymouth
 gnome-shell-maia
 gnome-themes-extra
 #gnome-wallpapers
 grub-theme-manjaro
 kvantum-manjaro
 #>extra illyria-wallpaper
-manjaro-gdm-branding
+
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0

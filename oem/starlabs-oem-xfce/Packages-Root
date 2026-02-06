@@ -1,4 +1,4 @@
->i686 archlinux32-keyring
+#>i686 archlinux32-keyring
 >manjaro manjaro-release
 acpi
 acpid
@@ -39,19 +39,29 @@ intel-ucode
 iproute2
 iptables
 iputils
-ipw2100-fw
-ipw2200-fw
+#ipw2100-fw
+#ipw2200-fw
 jfsutils
 linux612-t2
 less
 licenses
-linux-firmware
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-meta
+linux-firmware-realtek
+linux-firmware-whence
 logrotate
 lsb-release
 lvm2
 man-db
 man-pages
-manjaro-firmware
+#manjaro-firmware
 manjaro-system
 mdadm
 memtest86+
@@ -83,7 +93,7 @@ texinfo
 tlp
 usbutils
 util-linux
-vi
+vim
 wget
 which
 wireless-regdb

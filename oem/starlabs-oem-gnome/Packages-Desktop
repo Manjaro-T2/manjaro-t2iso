@@ -157,22 +157,22 @@ gnome-tweaks
 
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
->extra gnome-shell-extension-arcmenu
+>extra gnome-shell-extension-arc-menu
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-dash-to-panel
 >extra gnome-shell-extension-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
->extra gnome-shell-extension-material-shell
->extra gnome-shell-extension-x11gestures
+#>extra gnome-shell-extension-material-shell
+#>extra gnome-shell-extension-x11gestures
 
 ## Themes
 #adwaita-maia
 adw-gtk-theme
-manjaro-gdm-branding
+
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
->extra gdm-plymouth
+#>extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-wallpapers
 papirus-maia-icon-theme
@@ -221,7 +221,7 @@ xdg-utils
 lollypop
 >extra fragments
 >extra ffmpegthumbnailer
->extra cheese
+>extra gnome-screenshot
 >extra gtkhash-nautilus
 #manjaro-gnome-vanilla
 #tlp

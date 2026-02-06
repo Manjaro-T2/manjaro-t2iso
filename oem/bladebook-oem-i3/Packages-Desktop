@@ -69,7 +69,7 @@ make
 >multilib manjaro-alsa
 manjaro-browser-settings
 >extra manjaro-hello
-manjaro-hotfixes
+
 manjaro-i3-settings-bldbk
 >extra manjaro-printer
 manjaro-ranger-settings
@@ -126,7 +126,7 @@ ttf-bitstream-vera
 >extra ttf-liberation
 >basic ufw
 upower
-vi
+vim
 >extra vibrancy-icons-teal
 viewnior
 vim

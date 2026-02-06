@@ -7,13 +7,57 @@
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/awesome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/awesome/Packages-Desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/lxde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/lxde/Packages-Desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/lxqt-kwin/desktop-overlay/etc/skel/.profile" beforeDir="false" afterPath="$PROJECT_DIR$/community/lxqt-kwin/desktop-overlay/etc/skel/.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/openbox/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/openbox/Packages-Desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/openbox/desktop-overlay/etc/skel/.profile" beforeDir="false" afterPath="$PROJECT_DIR$/community/openbox/desktop-overlay/etc/skel/.profile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manjaro/gnome/desktop-overlay/etc/environment" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/gnome/desktop-overlay/etc/environment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm-mate/Packages-Mhwd" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm-mate/Packages-Mhwd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm-mate/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm-mate/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/budgie/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/budgie/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/cinnamon/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/cinnamon/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/deepin/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/deepin/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/i3/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/i3/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/kde-minimal/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/community/kde-minimal/Packages-Live" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/mate/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/mate/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/plasma-bigscreen/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/plasma-bigscreen/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/plasma-mobile/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/community/plasma-mobile/Packages-Live" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/plasma-mobile/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/plasma-mobile/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/talking-mate/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/talking-mate/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/ukui/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/ukui/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/unity7/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/unity7/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/webdad/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/webdad/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/architect/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/architect/Packages-Live" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/bladebook/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/bladebook/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/gnome-next/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/gnome-next/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/gnome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/gnome/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/grub/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/grub/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/kde-dev/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/kde-dev/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/kde/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/netinstall/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/netinstall/Packages-Live" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/nxd/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/nxd/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/nxd/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/nxd/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/xfce/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/beelink-oem-gnome/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/beelink-oem-kde/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/bladebook-oem-gnome/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/bladebook-oem-i3/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/bladebook-oem-kde/Packages-Desktop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/bladebook-oem-xfce/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/generic-oem-kde/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/generic-oem-xfce/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/Packages-Desktop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/minisforum-oem-kde/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/slimbook-titan/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/starlabs-oem-gnome/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/starlabs-oem-kde/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Packages-Live-Xorg" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Live-Xorg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Packages-Mhwd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Mhwd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Root" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +88,8 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;senpai&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rishon/T2Linux/manjaro-t2iso&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/rishon/T2Linux/manjaro-t2iso&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="SharedIndexes">

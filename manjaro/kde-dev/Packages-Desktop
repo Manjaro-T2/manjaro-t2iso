@@ -283,10 +283,10 @@ xf86-input-void
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+>multilib lib32-libva
 libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
+mesa
+libva
 mesa-demos
 >multilib lib32-mesa-demos
 numlockx
@@ -302,4 +302,4 @@ xdg-utils
 zensu
 
 ## Misc
-manjaro-hotfixes
+

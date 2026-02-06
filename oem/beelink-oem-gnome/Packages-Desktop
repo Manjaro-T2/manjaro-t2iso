@@ -156,16 +156,16 @@ gnome-tweaks
 #tali
 
 ## GNOME Shell Extensions
->extra gnome-shell-extension-x11gestures
+#>extra gnome-shell-extension-x11gestures
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-appindicator
 
 ## Themes
 adwaita-maia
-manjaro-gdm-branding
+
 manjaro-gdm-theme
->extra gdm-plymouth
+#>extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-wallpapers
 papirus-maia-icon-theme
@@ -215,7 +215,7 @@ xdg-utils
 lollypop
 >extra fragments
 >extra ffmpegthumbnailer
->extra cheese
+>extra gnome-screenshot
 >extra gtkhash-nautilus
 #manjaro-gnome-vanilla
 #tlp

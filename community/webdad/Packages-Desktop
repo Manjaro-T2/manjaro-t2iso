@@ -70,7 +70,7 @@ openresolv
 #manjaro-settings-manager-notifier
 manjaro-webdad-settings
 gnome-keyring
-manjaro-hotfixes
+
 #manjaro-hello
 >basic squashfs-tools
 >basic disable-tracker

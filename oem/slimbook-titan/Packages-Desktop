@@ -245,18 +245,17 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 libva
-libva-mesa-driver
-libva-vdpau-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+mesa
+libvalibva-vdpau-driver
+>multilib lib32-lib32-mesa
 mesa
 mesa-demos
 >multilib lib32-mesa-demos
-mesa-vdpau
+mesa
 opencl-mesa
 libvdpau
 >multilib lib32-libvdpau
->multilib lib32-mesa-vdpau
+>multilib lib32-mesa
 numlockx
 xdg-user-dirs
 xorg-server
@@ -278,7 +277,7 @@ xdg-utils
 #>extra kernel-alive
 
 ## Misc
-manjaro-hotfixes
+
 >basic squashfs-tools
 
 ## OEM

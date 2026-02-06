@@ -73,7 +73,7 @@ manjaro-application-utility
 manjaro-browser-settings
 manjaro-cinnamon-settings
 manjaro-hello
-manjaro-hotfixes
+
 >extra manjaro-printer
 
 manjaro-settings-manager-notifier
@@ -137,7 +137,7 @@ ttf-dejavu
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra udiskie
-vi
+vim
 >extra xcursor-chameleon-pearl-deepin
 xdg-user-dirs-gtk
 xdg-utils

@@ -228,8 +228,9 @@ manjaro-zsh-config
 
 ## Xorg Server and Graphics
 >extra >multilib lib32-libva-intel-driver
->extra >multilib lib32-libva-mesa-driver
->extra >multilib lib32-libva-vdpau-driver
+>extra >multilib lib32-mesa
+>extra >multilib lib32-libva
+>extra >multilib lib32-libva
 >extra libva-intel-driver
 >extra libva-mesa-driver
 >extra libva-vdpau-driver
@@ -252,7 +253,7 @@ xorg-server
 
 ## Misc
 >extra gtkhash-thunar
-manjaro-hotfixes
+
 >basic squashfs-tools
 >extra xiccd # enable color profile settings
 ufw  # firewall needs to be in every iso

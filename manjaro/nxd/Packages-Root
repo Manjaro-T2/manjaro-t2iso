@@ -1,5 +1,5 @@
 #sonar sonar-release
->i686 archlinux32-keyring
+#>i686 archlinux32-keyring
 acpi
 acpid
 amd-ucode
@@ -45,7 +45,7 @@ logrotate
 lvm2
 man-db
 man-pages
-manjaro-firmware
+#manjaro-firmware
 manjaro-release
 manjaro-system
 mdadm
@@ -78,12 +78,11 @@ texinfo
 tlp
 usbutils
 util-linux
-vi
+vim
 wget
 which
 wireless-regdb
 wpa_supplicant
 xfsprogs
 xz
-#manjaro-zsh-config
-hardcode-fixer #This script adjust the missing icons when are hardcoded
+manjaro-zsh-config

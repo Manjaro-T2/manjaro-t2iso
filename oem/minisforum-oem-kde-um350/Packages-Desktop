@@ -273,9 +273,9 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
-libva-mesa-driver
-libva-vdpau-driver
+>multilib lib32-libva
+mesa
+libva
 mesa-demos
 >multilib lib32-mesa-demos
 numlockx
@@ -304,7 +304,7 @@ zensu
 gnome-firmware
 
 ## Misc
-manjaro-hotfixes
+
 >basic squashfs-tools
 
 ## Flatpak support

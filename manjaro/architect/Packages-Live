@@ -1,10 +1,10 @@
 git
 #linux60-t2-broadcom-wl
-brcmfmac
+manjaro-tools-base-git
 #linux60-t2-r8168
 maia-console
 manjaro-architect-launcher
-manjaro-hotfixes
+
 mkinitcpio-nfs-utils
 nbd
 open-vm-tools
@@ -18,4 +18,4 @@ xf86-input-evdev
 xf86-input-libinput
 xf86-input-vmmouse
 xf86-input-void
-grub-theme-live-manjaro-dev
+grub-theme-live-manjaro

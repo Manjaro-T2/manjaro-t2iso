@@ -6,7 +6,7 @@ efibootmgr
 filesystem
 gcc-libs
 glibc
-grub-quiet
+grub
 linux612-t2
 lsb-release
 >manjaro manjaro-release

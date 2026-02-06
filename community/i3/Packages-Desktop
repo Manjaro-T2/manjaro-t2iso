@@ -69,7 +69,7 @@ make
 >extra manjaro-application-utility
 manjaro-browser-settings
 >extra manjaro-hello
-manjaro-hotfixes
+
 manjaro-i3-settings
 >extra manjaro-printer
 manjaro-ranger-settings
@@ -125,7 +125,7 @@ ttf-dejavu
 >extra ttf-liberation
 >basic ufw
 upower
-vi
+vim
 >extra vibrancy-icons-teal
 viewnior
 vim
