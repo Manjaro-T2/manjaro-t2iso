@@ -65,7 +65,7 @@ pkg-config
 >extra patchutils
 >extra subversion
 >extra yay
->extra manjaro-aur-support
+#>extra manjaro-aur-support
 
 ## Fonts
 ttf-dejavu

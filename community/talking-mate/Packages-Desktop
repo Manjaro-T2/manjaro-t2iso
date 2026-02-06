@@ -147,7 +147,7 @@ timeshift 								#backup utility
 #>extra patch
 #>extra subversion
 #>extra yaourt
-manjaro-aur-support
+
 
 xdg-user-dirs
 xorg-server

@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/lxqt-kwin/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/lxqt-kwin/Packages-Desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/lxqt/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/lxqt/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/budgie/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/budgie/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/mate/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/mate/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/talking-mate/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/talking-mate/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Desktop" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
