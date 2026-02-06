@@ -48,7 +48,7 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
->extra hexchat
+>extra weechat
 htop
 inxi
 json-c
@@ -76,7 +76,7 @@ manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
 >extra matcha-gtk-theme
 mesa-demos
-mlocate
+plocate
 mobile-broadband-provider-info
 moc
 modemmanager
@@ -96,9 +96,10 @@ nss-mdns
 ntp
 openresolv
 openssh
-p7zip
+7zip
 palemoon-bin
-pamac
+#pamac
+yay
 patch
 patchutils
 pcmanfm

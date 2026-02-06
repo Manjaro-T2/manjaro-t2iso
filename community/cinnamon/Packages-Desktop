@@ -36,7 +36,7 @@ gnome-keyring
 >extra gnome-screenshot
 >extra gnome-system-monitor
 gnome-terminal
-gnome-themes-standard
+adwaita-icon-theme
 gnu-free-fonts
 >extra gparted
 >extra gprename
@@ -47,14 +47,14 @@ grub-theme-manjaro-dev
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
-gtkhash-nemo
+#gtkhash-nemo
 >extra gufw
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 htop
->extra hexchat
+>extra weechat
 icon-naming-utils
 inxi
 >extra jre8-openjdk
@@ -101,14 +101,14 @@ numlockx
 openresolv
 openssh
 >extra openvpn
->extra p7zip
+>extra 7zip
 pamac
 papirus-maia-icon-theme
 >extra parcellite
 patch
 >extra patchutils
 pavucontrol
->extra pidgin-libnotify
+#>extra pidgin-libnotify
 >extra pix
 pkg-config
 >extra poppler-data

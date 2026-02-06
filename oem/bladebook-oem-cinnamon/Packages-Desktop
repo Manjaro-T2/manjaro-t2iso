@@ -29,7 +29,7 @@ gnome-keyring
 gnome-system-log
 >extra gnome-system-monitor
 gnome-terminal
-gnome-themes-standard
+adwaita-icon-theme
 >extra gparted
 >extra gprename
 grub-theme-manjaro-dev
@@ -44,7 +44,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 htop
->extra hexchat
+>extra weechat
 icon-naming-utils
 inxi
 >extra jre8-openjdk
@@ -92,14 +92,14 @@ numlockx
 openresolv
 openssh
 >extra openvpn
->extra p7zip
-pamac-gtk
+>extra 7zip
+gnome-software-centre
 papirus-maia-icon-theme
 >extra parcellite
 patch
 >extra patchutils
 pavucontrol
->extra pidgin-libnotify
+#>extra pidgin-libnotify
 >extra pix
 pkg-config
 >extra poppler-data

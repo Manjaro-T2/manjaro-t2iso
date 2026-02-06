@@ -75,7 +75,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -89,13 +89,13 @@ terminus-font
 
 ## Package management
 #appimagelauncher
-pamac-gtk
-pamac-tray-appindicator
-pamac-cli
->extra apparmor
+#pamac-gtk
+#pamac-tray-appindicator
+#pamac-cli
+#>extra apparmor
 >extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
+#>extra pamac-snap-plugin
 #discover-snap
 #discover
 #packagekit-qt5
@@ -191,7 +191,7 @@ startup-notification # needed for waterfox
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-themes-standard
+adwaita-icon-theme
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
 oxygen-icons
@@ -235,7 +235,7 @@ partitionmanager
 spectacle
 
 ## Optional dependencies for ark
-p7zip  # 7Z format support
+7zip  # 7Z format support
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam

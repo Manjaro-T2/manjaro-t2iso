@@ -51,7 +51,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -90,7 +90,7 @@ libayatana-appindicator
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-themes-standard
+adwaita-icon-theme
 grub-theme-manjaro
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
@@ -101,7 +101,7 @@ dmidecode # optional dependency inxi
 >extra gimp
 gparted
 gufw
->extra hexchat
+>extra weechat
 htop
 inxi
 manjaro-hello

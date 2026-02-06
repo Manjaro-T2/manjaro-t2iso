@@ -71,14 +71,14 @@ patchutils
 subversion
 
 ## Fonts
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
-# ttf-hack               # Installed as plasma-integration dependency
+ttf-dejavu
+ttf-hack
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
@@ -89,13 +89,14 @@ ttf-droid
 
 ## Package management
 appimagelauncher
-pamac
-pamac-tray-appindicator
-pamac-cli
+#pamac
+#pamac-tray-appindicator
+#pamac-cli
+
 apparmor
 snapd
 snapd-glib
-pamac-snap-plugin
+#pamac-snap-plugin
 #discover-snap
 #discover
 #packagekit-qt5
@@ -152,7 +153,7 @@ user-manager
 ## Themes QT/GTK/SDDM
 #breeze
 #breeze-gtk
-gnome-themes-standard
+adwaita-icon-theme
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
 oxygen-icons
@@ -198,7 +199,7 @@ skanlite
 spectacle
 
 ## Optional dependencies for ark
-p7zip  # 7Z format support
+7zip  # 7Z format support
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
@@ -249,7 +250,7 @@ imagewriter
 inxi
 #krita
 firefox
-ms-office-online
+#ms-office-online
 #freeoffice
 libreoffice-still
 #calligra

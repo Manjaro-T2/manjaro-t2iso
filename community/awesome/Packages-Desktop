@@ -76,7 +76,7 @@ bluez-utils
 # >extra noto-fonts-emoji
 >extra terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
+ttf-dejavu             # Installed as adwaita-icon-theme dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -160,7 +160,7 @@ network-manager-applet
 >extra manjaro-wallpapers-18.0
 # >extra wallpapers-2018  # removed to reduce iso size (-15MB)
 # >extra wallpapers-juhraya  # removed to reduce iso size (~20MB)
->extra gnome-themes-standard
+>extra adwaita-icon-theme
 grub-theme-manjaro
 >extra matcha-gtk-theme
 >extra xcursor-simpleandsoft
@@ -179,7 +179,7 @@ grub-theme-manjaro
 >extra gparted
 >extra gufw
 >extra audacious
->extra hexchat
+>extra weechat
 >extra htop
 >extra zathura-pdf-poppler
 >extra zathura-djvu
@@ -192,11 +192,11 @@ grub-theme-manjaro
 >extra manjaro-settings-manager
 >extra manjaro-settings-manager-notifier
 # >basic midori  # no browser in minimal iso
->extra mlocate
+>extra plocate
 mousepad
 >extra mugshot
 # >basic parole # no media player in minimal iso
->extra pidgin
+#>extra pidgin
 >extra powertop
 >extra screenfetch
 >extra poppler-data  # CKJ support for pdf
@@ -208,7 +208,7 @@ mousepad
 >extra yelp
 
 # Optional dependencies engrampa
->extra p7zip  # 7Z and ARJ archive support
+>extra 7zip  # 7Z and ARJ archive support
 >extra unace  # ACE archive support
 >extra unrar  # RAR archive support
 
@@ -252,7 +252,7 @@ xorg-server
 #>extra kernel-alive
 
 ## Misc
->extra gtkhash-thunar
+#>extra gtkhash-thunar
 
 >basic squashfs-tools
 >extra xiccd # enable color profile settings

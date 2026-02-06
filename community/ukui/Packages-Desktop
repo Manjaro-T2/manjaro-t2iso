@@ -2,7 +2,7 @@ adwaita-icon-theme
 alsa-firmware
 dconf-editor
 dmidecode
-hexchat
+weechat
 eom
 atril
 engrampa
@@ -58,7 +58,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac-gtk
+#pamac-gtk
 powertop
 pipewire
 pipewire-pulse

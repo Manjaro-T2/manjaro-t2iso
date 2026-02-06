@@ -51,7 +51,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -68,11 +68,12 @@ terminus-font
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
-pamac-gtk
+#pamac-gtk
+gnome-software-centre
 >extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
 
 ## Printing
 >extra manjaro-printer
@@ -146,7 +147,7 @@ pavucontrol
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-themes-standard
+adwaita-icon-theme
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
@@ -165,7 +166,7 @@ gcolor3
 gparted
 gufw
 >extra audacious
->extra hexchat
+>extra weechat
 htop
 inxi
 #>extra libreoffice-still
@@ -177,11 +178,11 @@ manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic midori
->extra mlocate
+>extra plocate
 mousepad
 mugshot
 >basic parole # media player
->extra pidgin
+#>extra pidgin
 powertop
 screenfetch
 evince
@@ -194,7 +195,7 @@ evince
 >extra yelp
 
 # Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
+7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
@@ -237,7 +238,7 @@ xdg-utils
 #>extra kernel-alive
 
 ## Misc
-gtkhash-thunar
+#gtkhash-thunar
 
 >basic squashfs-tools
 xiccd # enable color profile settings

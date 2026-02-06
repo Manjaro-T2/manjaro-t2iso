@@ -53,7 +53,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -83,7 +83,7 @@ bluedevil
 breeze
 breeze-gtk
 breeze-icons
-gnome-themes-standard
+adwaita-icon-theme
 oxygen
 oxygen-icons
 grub-theme-manjaro

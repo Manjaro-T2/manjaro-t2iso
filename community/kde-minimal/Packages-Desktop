@@ -19,7 +19,7 @@ konsole
 >extra xdg-user-dirs
 >extra ark
 # optional dependencies of ark:
->extra p7zip
+>extra 7zip
 >extra unarchiver
 # wifi setup for systemd-networkd (recommended reading: https://wiki.archlinux.org/index.php/Systemd-networkd#Wireless_adapter  and  https://wiki.archlinux.org/index.php/WPA_supplicant):
 #>extra wpa_supplicant_gui

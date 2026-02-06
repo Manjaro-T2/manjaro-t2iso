@@ -2,7 +2,7 @@ adwaita-icon-theme
 alsa-firmware
 dconf-editor
 dmidecode
-hexchat
+weechat
 eom
 atril
 engrampa
@@ -82,7 +82,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac
+yay
 powertop
 pipewire
 pipewire-pulse
@@ -121,7 +121,7 @@ caja-open-terminal
 >extra thunderbird
 >extra lollypop
 >extra vlc
->extra pidgin
+#>extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra onlyoffice-desktopeditors

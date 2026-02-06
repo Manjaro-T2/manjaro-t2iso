@@ -85,7 +85,8 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 
 ## Package management
 pamac
-#flatpak
+yay
+flatpak
 
 ## Java
 >extra jdk8-openjdk
@@ -182,7 +183,7 @@ zensu
 ## Themes
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
-gnome-themes-standard
+adwaita-icon-theme
 kvantum-manjaro
 grub-theme-manjaro
 matcha-gtk-theme
@@ -203,22 +204,22 @@ gcolor3
 gparted
 gufw
 >extra audacious
->extra hexchat
+>extra weechat
 htop
-qpdfview
+okular
 inxi
 >extra libreoffice-still
-ms-office-online
+#ms-office-online
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic midori
->extra mlocate
+>extra plocate
 mousepad
 mugshot
 >basic parole # media player
->extra pidgin
+#>extra pidgin
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
@@ -231,7 +232,7 @@ xreader
 >extra yelp
 
 # Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
+7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 

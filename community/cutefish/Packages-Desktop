@@ -83,11 +83,11 @@ sddm
 norse-sddm-theme
 
 ## office
-qpdfview
+okular
 
 ## fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts

@@ -94,14 +94,14 @@ xorg-xinit
 >extra inxi
 >extra dunst-notify-speech
 >extra dmidecode
->extra gtkhash-nautilus
+#>extra gtkhash-nautilus
 >extra fprintd #need for finger id reader
 >extra usb_modeswitch
 >extra openssh
 
 # Dependencies for file-roller
 >extra gnome-getting-started-docs
->extra p7zip
+>extra 7zip
 >extra unrar
 >extra unace
 >extra lrzip

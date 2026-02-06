@@ -69,7 +69,7 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
-hexchat
+weechat
 htop
 inxi
 >extra jre8-openjdk
@@ -90,7 +90,7 @@ manjaro-hello
 
 manjaro-settings-manager-notifier
 mesa-demos
-mlocate
+plocate
 mobile-broadband-provider-info
 modemmanager
 >multilib lib32-mesa-demos
@@ -104,8 +104,8 @@ nss-mdns
 ntp
 onboard
 openresolv
-pamac
->extra pamac-snap-plugin
+#pamac
+#>extra pamac-snap-plugin
 patch
 >extra patchutils
 pkg-config

@@ -57,7 +57,7 @@ libtool
 m4
 make
 patch
-pkg-config
+pkgconf
 >multilib lib32-flex
 # Extra packages for AUR support
 git
@@ -71,17 +71,17 @@ noto-fonts-cjk         # big package, ~76 mb compressed
 noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
-# ttf-dejavu             # Installed as gnome-themes-standard dependency
+ttf-dejavu
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 ttf-droid
 
 ## Package management
-pamac-gtk
-pamac-snap-plugin
+#pamac-gtk
+#pamac-snap-plugin
 flatpak
-
+yay
 ## Java
 jdk8-openjdk
 jre8-openjdk-headless
@@ -101,7 +101,7 @@ exo
 garcon
 thunar
 thunar-volman
-gtkhash-thunar
+#gtkhash-thunar
 tumbler
 xfce4-appfinder
 xfce4-panel
@@ -163,12 +163,12 @@ xcape
 manjaro-wallpapers-18.0
 wallpapers-2018
 wallpapers-juhraya
-gnome-themes-standard
+adwaita-icon-theme
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
-manjaro-icons-tx
+papirus-icon-theme
 wallpapers-tuxedo
 
 ## Applications
@@ -185,20 +185,20 @@ gimp
 gparted
 gufw
 audacious
-hexchat
+weechat
 htop
-qpdfview
+okular
 inxi
 libreoffice-still
-ms-office-online
+#ms-office-online
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-mlocate
+plocate
 mousepad
 mugshot
-pidgin
+#pidgin
 powertop
 screenfetch
 poppler-data  # CKJ support for pdf
@@ -210,7 +210,7 @@ xfburn
 yelp
 
 # Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
+7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 

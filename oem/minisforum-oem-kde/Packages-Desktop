@@ -60,7 +60,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
+# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -80,14 +80,15 @@ terminus-font
 
 ## Package management
 >extra appimagelauncher
-pamac-gtk
-pamac-tray-icon-plasma
-pamac-cli
+#pamac-gtk
+#pamac-tray-icon-plasma
+#pamac-cli
+yay
 >extra apparmor
 >extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
 #discover-snap
 #discover
 packagekit-qt5
@@ -145,7 +146,7 @@ systemsettings
 plasma-browser-integration
 
 ## Themes QT/GTK/SDDM
-gnome-themes-standard
+adwaita-icon-theme
 oxygen # needed to provide KDE system sounds
 oxygen-icons
 sddm-breath-theme
@@ -185,7 +186,7 @@ partitionmanager
 spectacle
 
 ## Optional dependencies for ark
-p7zip  # 7Z format support
+7zip  # 7Z format support
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam

@@ -3,7 +3,7 @@ alsa-firmware
 baobab
 dconf-editor
 dmidecode
-hexchat
+weechat
 gthumb
 evince
 >basic epiphany
@@ -33,7 +33,7 @@ gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-gnome-themes-standard
+adwaita-icon-theme
 gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
@@ -102,7 +102,7 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac
+#pamac
 flatpak
 polkit-gnome
 powertop
@@ -144,11 +144,11 @@ xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
-ms-office-online
+#ms-office-online
 
 #extra depends for file-roller
 >extra gnome-getting-started-docs
->extra p7zip
+>extra 7zip
 >extra unrar
 >extra unace
 >extra lrzip

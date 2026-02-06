@@ -216,7 +216,7 @@ lollypop
 >extra fragments
 >extra ffmpegthumbnailer
 >extra gnome-screenshot
->extra gtkhash-nautilus
+#>extra gtkhash-nautilus
 #manjaro-gnome-vanilla
 #tlp
 >extra power-profiles-daemon       # optional for gnome-control-center
@@ -224,7 +224,7 @@ lollypop
 >extra gnuchess                    # optional for gnome-chess to play against computer
 
 ## Optional dependencies for file-roller
->extra p7zip
+>extra 7zip
 >extra unrar
 >extra unace
 >extra lrzip

@@ -3,7 +3,7 @@ alsa-firmware
 baobab
 dconf-editor
 dmidecode
-hexchat
+weechat
 gthumb
 lightdm
 lightdm-slick-greeter
@@ -21,14 +21,14 @@ matcha-gtk-theme
 libappindicator-gtk3
 baobab
 dconf-editor
-hexchat
+weechat
 evince
 gnome-calculator
 gnome-control-center
 gnome-calendar
 gnome-disk-utility
 gnome-font-viewer
-gnome-themes-standard
+adwaita-icon-theme
 gnome-keyring
 gnome-settings-daemon
 gnome-system-monitor
@@ -89,8 +89,8 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac-gtk
-pamac-snap-plugin
+#pamac-gtk
+#pamac-snap-plugin
 polkit-gnome
 powertop
 pipewire
@@ -128,14 +128,14 @@ xorg-xinit
 yelp
 
 #extra depends for file-roller
->extra p7zip
+>extra 7zip
 >extra unrar
 >extra unace
 >extra lrzip
 >extra onlyoffice
 >extra thunderbird
 >extra lollypop
->extra pidgin
+#>extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra brasero

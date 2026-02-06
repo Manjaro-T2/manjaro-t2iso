@@ -149,7 +149,7 @@ pavucontrol
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-themes-standard
+adwaita-icon-theme
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
@@ -167,7 +167,7 @@ gcolor3
 gparted
 gufw
 >extra audacious
->extra hexchat
+>extra weechat
 htop
 evince
 inxi
@@ -179,11 +179,11 @@ manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic midori
->extra mlocate
+>extra plocate
 mousepad
 mugshot
 >basic parole # media player
->extra pidgin
+#>extra pidgin
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
@@ -195,7 +195,7 @@ screenfetch
 >extra yelp
 
 # Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
+7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
@@ -238,7 +238,7 @@ zensu
 >extra timeshift
 
 ## Misc
-gtkhash-thunar
+#gtkhash-thunar
 
 >basic squashfs-tools
 xiccd # enable color profile settings

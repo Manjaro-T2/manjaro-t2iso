@@ -43,9 +43,9 @@ adobe-source-han-sans-cn-fonts
 ## Games
 
 ## Package management
-pamac-gnome-integration
->extra pamac-flatpak-plugin
-pamac-gtk
+#pamac-gnome-integration
+#>extra pamac-flatpak-plugin
+#pamac-gtk
 #>extra pamac-snap-plugin
 
 ## Printing
@@ -234,7 +234,7 @@ xdg-utils
 
 ## Optional dependencies for file-roller
 >extra lrzip
->extra p7zip
+>extra 7zip
 >extra squashfs-tools
 >extra unace
 >extra unrar
