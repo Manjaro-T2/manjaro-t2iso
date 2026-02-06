@@ -107,11 +107,12 @@ xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
 xfce4-session
-xfce4-settings
 xfce4-terminal
 xfconf
 xfdesktop
 xfwm4
+xorg-xwayland
+polkit-gnome
 
 ## XFCE Extras
 blueman
@@ -215,11 +216,14 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation-en
+
 
 ## Settings packages
-manjaro-xfce-tx-settings
+xfce4-settings
+manjaro-xfce-settings
 manjaro-browser-settings
+glibc-locales
+gettext
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -229,7 +233,9 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
+>multilib lib32-mesa
+>multilib libva
+
 >multilib lib32-libva
 libva-intel-driver
 mesa
@@ -246,15 +252,15 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+polkit-gnome
 
 ## Misc
 
-tuxedo-keyboard-dkms
+
 linux612-t2-headers
 timeshift
 #kernel-alive
 
 ## OEM
 calamares-oem-modules
-calamares-oem-infbkpro-xfce-settings
+

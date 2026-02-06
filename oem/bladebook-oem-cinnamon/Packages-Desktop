@@ -62,7 +62,7 @@ make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-cinnamon-settings
->extra manjaro-documentation-en
+#>extra manjaro-documentation-en
 manjaro-hello
 
 >extra manjaro-printer
@@ -130,7 +130,7 @@ ttf-bitstream-vera
 vim
 >extra vlc
 >extra xcursor-chameleon-pearl-deepin
-xdg-su
+polkit-gnome
 xdg-user-dirs-gtk
 xdg-utils
 xed

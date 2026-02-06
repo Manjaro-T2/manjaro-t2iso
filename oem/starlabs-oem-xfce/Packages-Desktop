@@ -200,11 +200,11 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation-en
+
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+#>extra manjaro-xfce-gtk3-settings
+#>basic manjaro-xfce-gtk3-minimal-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -216,7 +216,9 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
+>multilib lib32-mesa
+>multilib libva
+
 >multilib lib32-libva
 libva-intel-driver
 mesa

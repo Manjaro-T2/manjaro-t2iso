@@ -250,7 +250,9 @@ xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
->multilib lib32-libva-mesa-driver
+>multilib lib32-mesa
+>multilib libva
+
 >multilib lib32-libva
 mesa
 libva

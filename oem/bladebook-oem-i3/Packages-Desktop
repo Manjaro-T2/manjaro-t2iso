@@ -138,7 +138,7 @@ wmutils
 xautolock
 >extra xcursor-chameleon-pearl
 >extra xcursor-maia
-xdg-su
+polkit-gnome
 xdg-utils
 xdotool
 xf86-input-elographics

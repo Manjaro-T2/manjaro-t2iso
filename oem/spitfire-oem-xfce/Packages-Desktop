@@ -251,7 +251,9 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
+>multilib lib32-mesa
+>multilib libva
+
 >multilib lib32-libva
 libva-intel-driver
 mesa
@@ -268,7 +270,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+polkit-gnome
 
 ## Misc
 

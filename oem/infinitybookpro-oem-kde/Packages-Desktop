@@ -275,7 +275,7 @@ jre8-openjdk
 jdk8-openjdk
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 manjaro-kde-tx-settings
@@ -289,7 +289,9 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
+>multilib lib32-mesa
+>multilib libva
+
 >multilib lib32-libva
 libva-intel-driver
 mesa
@@ -306,7 +308,7 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-xdg-su
+polkit-gnome
 timeshift
 #kernel-alive
 
@@ -315,7 +317,7 @@ bootsplash-theme-manjaro
 bootsplash-systemd
 
 tlpui
-tuxedo-keyboard-dkms
+
 linux612-t2-headers
 
 ## Flatpak support

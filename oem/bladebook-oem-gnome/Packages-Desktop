@@ -130,7 +130,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-xdg-su
+polkit-gnome
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
