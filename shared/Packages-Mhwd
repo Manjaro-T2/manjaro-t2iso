@@ -10,6 +10,7 @@ zfs-utils
 #linux61-t2-virtualbox-guest-modules
 linux612-t2-headers
 zfs-dkms
+open-vm-tools
 libva-intel-driver
 mesa
 libva
@@ -17,12 +18,19 @@ libva
 libxaw
 libxpm
 libxvmc
+gtkmm3
+spice-vdagent
+virtualbox-guest-utils
+vulkan-mesa-layers
+vulkan-swrast
+vulkan-virtio
+vulkan-icd-loader
+vulkan-radeon
 mesa
 >multilib lib32-mesa
 >multilib lib32-libxvmc
 >multilib lib32-primus
 opencl-mesa
-open-vm-tools
 primus
 qemu-guest-agent
 bumblebee
@@ -41,4 +49,3 @@ xf86-video-fbdev
 xf86-video-intel
 xf86-video-sisusb
 xf86-video-vesa
-
