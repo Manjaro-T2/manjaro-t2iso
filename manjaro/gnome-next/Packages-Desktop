@@ -178,7 +178,8 @@ grub-theme-manjaro
 >extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
 >extra plymouth-theme-manjaro
-qgnomeplatform
+qt5ct
+qt6ct
 
 >extra wallpapers-2018
 >extra wallpapers-juhraya
