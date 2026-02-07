@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         ##### EDIT ME #####      
-        EDITION: [cinnamon, openbox, gnome, kde, i3, xfce]
+        EDITION: [cinnamon, gnome, kde, i3, xfce]
         BRANCH: [stable]
         SCOPE: [full]
         ###################
