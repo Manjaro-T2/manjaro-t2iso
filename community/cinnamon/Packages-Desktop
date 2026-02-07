@@ -82,12 +82,12 @@ manjaro-settings-manager-notifier
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
->extra microsoft-office-web-jak
+#>extra microsoft-office-web-jak
 >extra mugshot
 >multilib lib32-mesa-demos
 # >extra nemo-bulk-rename
 >extra nemo-fileroller
->extra nemo-preview
+>extra nemo
 >extra nemo-python
 >extra nemo-share
 netctl

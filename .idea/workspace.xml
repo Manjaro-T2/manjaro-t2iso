@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/manjaro/gnome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/gnome/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.secrets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/cinnamon/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Desktop" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

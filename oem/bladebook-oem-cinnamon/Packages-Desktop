@@ -78,7 +78,7 @@ manjaro-settings-manager-notifier
 >multilib lib32-mesa-demos
 >extra nemo-bulk-rename
 >extra nemo-fileroller
->extra nemo-preview
+>extra nemo
 >extra nemo-python
 >extra nemo-share
 netctl
