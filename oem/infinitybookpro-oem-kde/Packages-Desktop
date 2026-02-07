@@ -25,8 +25,8 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
+libcanberra
+>multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 pipewire
@@ -63,7 +63,7 @@ libtool
 m4
 make
 patch
-pkg-config
+pkgconf
 >multilib lib32-flex
 # Extra packages for AUR support
 git
@@ -88,7 +88,7 @@ ttf-droid
 >x86_64 steam-manjaro
 
 ## Package management
-appimagelauncher
+libappimage
 #pamac
 #pamac-tray-appindicator
 #pamac-cli
@@ -99,7 +99,7 @@ snapd-glib
 #pamac-snap-plugin
 #discover-snap
 #discover
-#packagekit-qt5
+#packagekit
 flatpak
 fwupd
 #pamac-qt
@@ -107,7 +107,7 @@ manjaro-application-utility
 
 ## Printing
 manjaro-printer
-gtk3-print-backends
+gtk3
 
 ## Optional dependencies for hplip
 python-pillow
@@ -127,13 +127,13 @@ sddm-kcm
 bluedevil
 kde-gtk-config
 kdeplasma-addons
-kgamma5
+kgamma
 kinfocenter
 kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
+plasma-systemmonitor
 kwallet-pam
 kwayland-integration
 kwin
@@ -143,12 +143,12 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-simplemenu
+plasma-desktop
 plasma-workspace
 plasma-workspace-wallpapers
 powerdevil
 systemsettings
-user-manager
+
 
 ## Themes QT/GTK/SDDM
 #breeze
@@ -181,11 +181,11 @@ kdeconnect
 okular
 >x86_64 kget
 >x86_64 libktorrent
->i686 kdenetwork-kget
+>i686 kget
 kdenetwork-filesharing
 #kdenlive
 khelpcenter
-khotkeys
+
 kio-extras
 #kleopatra
 konsole
@@ -256,12 +256,12 @@ libreoffice-still
 #calligra
 manjaro-hello
 manjaro-application-utility
-manjaro-settings-manager-kcm
+manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
 qbittorrent
 screenfetch
-systemd-kcm
+plasma-systemmonitor
 thunderbird
 vlc
 yakuake

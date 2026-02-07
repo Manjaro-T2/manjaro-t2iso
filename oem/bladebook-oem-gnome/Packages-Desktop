@@ -121,8 +121,8 @@ ntp
 openssh
 terminus-font
 totem
-tracker
-tracker-miners
+#tracker
+
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -152,7 +152,7 @@ yelp
 >extra unrar
 >extra unace
 >extra lrzip
->extra gtk3-print-backends
+>extra gtk3
 >extra libreoffice-fresh
 >extra evolution
 >extra lollypop
@@ -172,7 +172,7 @@ yelp
 #>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 
-#AUR complete support ( base devel + yaourt )
+#AUR complete support ( base devel + yay )
 #>extra autoconf
 #>extra automake
 #>extra binutils
@@ -185,7 +185,7 @@ yelp
 #>extra make
 #>extra patch
 #>extra subversion
-#>extra yaourt
+#>extra yay
 #manjaro-aur-support #introduce for testing in community
 
 ## OEM

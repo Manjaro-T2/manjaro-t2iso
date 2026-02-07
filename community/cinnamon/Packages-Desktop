@@ -20,12 +20,12 @@ dmidecode
 #>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
-#>extra firefox
+firefox
 flatpak
 flex
 gvfs-goa
 gvfs-google
->extra galculator
+>extra gnome-calculator
 >extra gcc
 >extra gcolor3
 >extra gimp
@@ -40,7 +40,7 @@ adwaita-icon-theme
 gnu-free-fonts
 >extra gparted
 >extra gprename
-grub-theme-manjaro-dev
+grub-theme-manjaro
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
@@ -78,7 +78,7 @@ manjaro-hello
 
 manjaro-settings-manager-notifier
 >extra mesa-demos
->basic midori
+>basic epiphany
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
@@ -102,7 +102,7 @@ openresolv
 openssh
 >extra openvpn
 >extra 7zip
-pamac
+yay
 papirus-maia-icon-theme
 >extra parcellite
 patch
@@ -110,7 +110,7 @@ patch
 pavucontrol
 #>extra pidgin-libnotify
 >extra pix
-pkg-config
+pkgconf
 >extra poppler-data
 >extra popsicle
 >extra powertop
@@ -138,7 +138,7 @@ ttf-dejavu
 >extra ttf-liberation
 >extra udiskie
 vim
->extra xcursor-chameleon-pearl-deepin
+>extra xcursor-themes
 xdg-user-dirs-gtk
 xdg-utils
 xed

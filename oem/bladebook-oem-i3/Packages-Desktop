@@ -20,7 +20,7 @@ clipit
 dfc
 dmidecode
 >extra downgrade
-epdfview
+zathura
 fakeroot
 >extra ffmpeg
 >extra ffmpegthumbnailer
@@ -98,14 +98,14 @@ open-fuse-iso
 openresolv
 openssh
 7zip
-palemoon-bin
+firefox
 #pamac
 yay
 patch
 patchutils
 pcmanfm
 perl-file-mimeinfo
-pkg-config
+pkgconf
 polkit-gnome
 >extra poppler-data
 powertop

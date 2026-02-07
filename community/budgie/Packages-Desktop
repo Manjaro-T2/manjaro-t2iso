@@ -18,7 +18,7 @@ manjaro-wallpapers-18.0
 wallpapers-2018
 manjaro-icons
 matcha-gtk-theme
-libappindicator-gtk3
+libayatana-appindicator
 baobab
 dconf-editor
 weechat
@@ -61,7 +61,7 @@ imagewriter
 kvantum-theme-matcha
 mc # Midnight Commander
 #pacui
-mhwd-tui
+#mhwd-tui
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -109,7 +109,7 @@ ntp
 openssh
 terminus-font
 totem
-tracker
+#tracker
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -132,7 +132,7 @@ yelp
 >extra unrar
 >extra unace
 >extra lrzip
->extra onlyoffice
+>extra onlyoffice-desktopeditors
 >extra thunderbird
 >extra lollypop
 #>extra pidgin

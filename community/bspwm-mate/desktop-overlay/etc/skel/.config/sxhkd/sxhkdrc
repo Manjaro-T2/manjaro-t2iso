@@ -321,8 +321,8 @@ alt + ctrl + space
 	$GUI_EDITOR ~/.config/sxhkd/sxhkdrc
 # Toggle compositing
 super + ctrl + space
-	{pkill compton ,\
-	compton -b }
+	{pkill picom ,\
+	picom --config ~/.config/picom/picom.conf & }
 
 # Remove receptacles
 super + BackSpace

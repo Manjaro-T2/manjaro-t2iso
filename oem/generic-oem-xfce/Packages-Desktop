@@ -54,7 +54,7 @@ ttf-dejavu
 # cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-adobe-source-sans-pro-fonts
+adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
@@ -177,7 +177,7 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
+>basic epiphany
 >extra plocate
 mousepad
 mugshot
@@ -204,7 +204,7 @@ unrar  # RAR archive support
 
 ## Settings packages
 #>extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+>basic manjaro-xfce-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers

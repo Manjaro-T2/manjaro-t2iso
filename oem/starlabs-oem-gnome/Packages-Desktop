@@ -35,7 +35,7 @@ ttf-liberation
 noto-fonts                         # default font
 >extra noto-fonts-emoji
 #noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
-adobe-source-sans-pro-fonts
+adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
@@ -44,7 +44,7 @@ adobe-source-han-sans-cn-fonts
 #>x86_64 >extra steam-manjaro
 
 ## Package management
-#pamac-gtk
+pamac-gtk
 #pamac-gnome-integration
 #>extra pamac-snap-plugin
 #>extra pamac-flatpak-plugin
@@ -100,7 +100,7 @@ gvfs
 mutter
 >extra rygel                       # optional for gnome-control-center
 sushi
-tracker3-miners
+
 xdg-user-dirs-gtk
 #gnome-books
 #eog                               # gthumb included instead
@@ -183,8 +183,8 @@ manjaro-artwork
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-juhraya
 >extra illyria-wallpaper
-qgnomeplatform-qt5
-qgnomeplatform-qt6
+qgnomeplatform
+
 gnome-themes-extra
 xcursor-breeze
 
@@ -218,7 +218,7 @@ polkit-gnome
 >extra timeshift
 xdg-utils
 >extra caffeine-ng
->extra libappindicator-gtk3
+>extra libayatana-appindicator
 lollypop
 >extra fragments
 >extra ffmpegthumbnailer

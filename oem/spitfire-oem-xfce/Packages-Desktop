@@ -58,7 +58,7 @@ libtool
 m4
 make
 patch
-pkg-config
+pkgconf
 >multilib lib32-flex
 # Extra packages for AUR support
 >extra git
@@ -99,7 +99,7 @@ flatpak
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
-#>extra gtk3-print-backends
+>extra gtk3
 >extra hplip
 >extra splix
 >extra system-config-printer
@@ -214,7 +214,7 @@ manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
+>basic epiphany
 >extra plocate
 mousepad
 mugshot

@@ -35,7 +35,7 @@ kalk
 kclock
 kdeconnect
 kdegraphics-thumbnailers
-kinit
+plasma-workspace
 kio-extras
 koko
 kpeoplesink
@@ -64,7 +64,7 @@ okular
 openssh
 oxygen-sounds
 7zip
-packagekit-qt5
+packagekit
 pacmanlogviewer
 parted
 pipewire-media-session
@@ -99,4 +99,4 @@ wget
 xdg-desktop-portal-kde
 xdg-user-dirs
 xdg-utils
-xorg-server-xwayland
+xorg-xwayland

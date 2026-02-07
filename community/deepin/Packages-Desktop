@@ -108,7 +108,7 @@ openresolv
 #>extra pamac-snap-plugin
 patch
 >extra patchutils
-pkg-config
+pkgconf
 >extra poppler-data
 >extra powertop
 pipewire
@@ -140,8 +140,8 @@ xf86-input-libinput
 xf86-input-void
 xorg-twm
 xorg-xinit
->extra xsane
->extra xsane-gimp
+>extra simple-scan
+#>extra xsane-gimp
 xdg-user-dirs
 xorg-xhost
 xorg-server

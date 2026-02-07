@@ -54,7 +54,7 @@ ttf-dejavu
 # cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-adobe-source-sans-pro-fonts
+adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
@@ -68,11 +68,12 @@ terminus-font
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
-pamac-gtk
+yay
+gnome-software
 >extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
 
 ## Printing
 >extra manjaro-printer

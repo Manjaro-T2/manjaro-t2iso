@@ -25,8 +25,8 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
+libcanberra
+>multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 
@@ -64,13 +64,13 @@ terminus-font
 >extra ttf-droid
 
 ## Package management
-packagekit-qt5
+packagekit
 discover
 xdg-desktop-portal
 xdg-desktop-portal-kde
 fwupd
-pamac-cli
-pamac-tray-icon-plasma
+#pamac-cli
+#pamac-tray-icon-plasma
 
 ## Display manager
 sddm

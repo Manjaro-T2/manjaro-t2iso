@@ -17,7 +17,7 @@ gnome-disk-utility
 manjaro-application-utility
 mc # Midnight Commander
 pacui
-mhwd-tui
+#mhwd-tui
 xterm
 gparted
 squashfs-tools
@@ -35,7 +35,7 @@ gvfs-mtp
 gvfs-smb
 inxi
 imagewriter
-libappindicator-gtk3
+libayatana-appindicator
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -111,7 +111,7 @@ timeshift 								#backup utility
 #>extra make
 #>extra patch
 #>extra subversion
-#>extra yaourt
+#>extra yay
 #manjaro-aur-support
 
 xdg-user-dirs

@@ -69,7 +69,7 @@ manjaro-hello
 
 manjaro-settings-manager-notifier
 >extra mesa-demos
->basic midori
+>basic epiphany
 >extra mint-themes
 >extra mobile-broadband-provider-info
 >extra modemmanager
@@ -93,7 +93,7 @@ openresolv
 openssh
 >extra openvpn
 >extra 7zip
-gnome-software-centre
+gnome-software
 papirus-maia-icon-theme
 >extra parcellite
 patch
@@ -101,7 +101,7 @@ patch
 pavucontrol
 #>extra pidgin-libnotify
 >extra pix
-pkg-config
+pkgconf
 >extra poppler-data
 >extra powertop
 >extra pragha

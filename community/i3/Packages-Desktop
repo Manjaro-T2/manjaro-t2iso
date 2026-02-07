@@ -20,7 +20,7 @@ clipit
 dfc
 dmidecode
 >extra downgrade
-epdfview
+zathura
 fakeroot
 >extra ffmpeg
 >extra ffmpegthumbnailer
@@ -34,7 +34,7 @@ gcolor3
 gnome-keyring
 >extra gparted
 groff
-grub-theme-manjaro-dev
+grub-theme-manjaro
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
@@ -78,7 +78,7 @@ manjaro-ranger-settings
 mesa-demos
 plocate
 mobile-broadband-provider-info
-moc
+alsa-utils
 modemmanager
 morc_menu
 mousepad
@@ -97,20 +97,20 @@ ntp
 openresolv
 openssh
 7zip
-palemoon-bin
+firefox
 #pamac
 yay
 patch
 patchutils
 pcmanfm
 perl-file-mimeinfo
-pkg-config
+pkgconf
 polkit-gnome
 >extra poppler-data
 powertop
 qt5ct
 ranger
-sbxkb
+gxkb
 screenfetch
 >extra snapd
 speedtest-cli
@@ -136,8 +136,8 @@ w3m
 >extra wallpapers-juhraya
 wmutils
 >extra xarchiver
-xautolock
->extra xcursor-chameleon-pearl
+i3lock
+>extra xcursor-themes
 >extra xcursor-maia
 xdg-utils
 xdotool

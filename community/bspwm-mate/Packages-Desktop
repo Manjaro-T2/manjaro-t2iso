@@ -36,8 +36,8 @@ bspwm-manjaro
 bspwm-ruler
 bspwm-scripts
 bspwm-wallpapers
-compton
-compton-conf
+picom
+#picom-conf
 #dunstify
 desktop-file-utils
 dconf-editor
@@ -54,7 +54,7 @@ gvfs-smb
 mtpfs
 udiskie
 udisks2
-light
+brightnessctl
 lightdm-slick-greeter
 light-locker
 lightdm-settings
@@ -77,7 +77,7 @@ manjaro-browser-settings-native
 mygtkmenui
 mozo
 network-manager-applet
-pa-applet
+pasystray
 yay
 pipewire
 pipewire-pulse
@@ -128,7 +128,7 @@ limepanel
 maia-console
 manjaro-architect
 manjaro-zsh-config
-moc
+alsa-utils
 ncdu
 nerd-fonts-terminus
 yay
@@ -147,10 +147,10 @@ w3m
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
->extra gtk3-print-backends
+>extra gtk
 >extra hplip
 >extra splix
->extra gtk3-print-backends
+>extra gtk
 >extra avahi
 >extra manjaro-settings-samba
 >extra blueman

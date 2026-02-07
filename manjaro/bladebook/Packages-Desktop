@@ -25,8 +25,8 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
+libcanberra
+>multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 
@@ -65,13 +65,13 @@ libtool
 m4
 make
 patch
-pkg-config
+pkgconf
 >multilib lib32-flex
 # Extra packages for AUR support
 >extra git
 >extra patchutils
 >extra subversion
-#yaourt
+#yay
 
 ## Fonts
 ttf-dejavu
@@ -88,13 +88,13 @@ terminus-font
 ## Games
 
 ## Package management
-#packagekit-qt5
+#packagekit
 #discover
 flatpak
 #fwupd
 octopi
-octopi-cachecleaner
-octopi-repoeditor
+octopi
+
 octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
@@ -105,7 +105,7 @@ octopi-notifier-frameworks
 >extra cups-pk-helper
 >extra ghostscript
 >extra gsfonts
->extra gtk3-print-backends
+>extra gtk3
 >extra hplip
 >extra splix
 >extra system-config-printer
@@ -124,13 +124,13 @@ sddm-kcm
 bluedevil
 kde-gtk-config
 kdeplasma-addons
-kgamma5
+kgamma
 kinfocenter
 kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
+plasma-systemmonitor
 kwallet-pam
 kwayland-integration
 kwin
@@ -144,7 +144,7 @@ plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
 systemsettings
-user-manager
+
 
 ## Themes QT/GTK/SDDM
 #breeze
@@ -175,7 +175,7 @@ kdeconnect
 okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+>extra >i686 kget
 kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
@@ -238,7 +238,7 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 >extra python-pysmbc          # SMB browser support
 
 ## Applications
-appimagelauncher
+libappimage
 #>extra cantata
 dmidecode # for inxi -m output
 htop
@@ -249,12 +249,12 @@ inxi
 >basic falkon
 #ms-office-online
 >extra libreoffice-fresh
-manjaro-settings-manager-kcm
+manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
 screenfetch
-systemd-kcm
+plasma-systemmonitor
 >extra thunderbird
 vlc
 yakuake
@@ -272,7 +272,7 @@ yakuake
 
 ## Settings packages
 >extra manjaro-kde-settings
->basic manjaro-kde-minimal-settings
+>basic manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -308,4 +308,4 @@ polkit-gnome
 
 ## OEM
 calamares-oem-modules
-calamares-oem-bldbk-settings
+calamares-oem-modules

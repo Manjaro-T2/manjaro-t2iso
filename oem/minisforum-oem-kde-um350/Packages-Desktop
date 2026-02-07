@@ -29,8 +29,8 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
+libcanberra
+>multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 pipewire
@@ -62,7 +62,7 @@ udisks2
 ttf-dejavu
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-adobe-source-sans-pro-fonts
+adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
@@ -78,7 +78,7 @@ terminus-font
 #>x86_64 >extra steamos-compositor-plus
 
 ## Package management
->extra appimagelauncher
+>extra libappimage
 #pamac-gtk
 #pamac-tray-icon-plasma
 #pamac-cli
@@ -90,14 +90,14 @@ yay
 #>extra pamac-flatpak-plugin
 #discover-snap
 #discover
-packagekit-qt5
+packagekit
 >extra fwupd 
 
 manjaro-application-utility
 
 ## Printing
 >extra manjaro-printer
->extra gtk3-print-backends
+>extra gtk3
 
 ## Optional dependencies for hplip
 >extra python-pillow
@@ -117,13 +117,13 @@ audiocd-kio
 bluedevil
 kde-gtk-config
 kdeplasma-addons
-kgamma5
+kgamma
 kinfocenter
 kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
+plasma-systemmonitor
 kwallet-pam
 kwayland-integration
 kwin
@@ -133,7 +133,7 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-simplemenu
+plasma-desktop
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -163,11 +163,11 @@ kdeconnect
 okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+>extra >i686 kget
 kdenetwork-filesharing
 khelpcenter
-khotkeys
-kinit # for "Open in Terminal" action
+
+plasma-workspace # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
@@ -236,13 +236,13 @@ inxi
 >extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
-manjaro-settings-manager-kcm
+manjaro-settings-manager
 manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
 >extra qbittorrent
 screenfetch
-systemd-kcm
+plasma-systemmonitor
 skype-web-jak
 telegram-desktop
 >extra thunderbird

@@ -14,8 +14,7 @@ konsole
 >extra plasma-pa
 >extra kde-gtk-config
 >extra breeze-gtk
->extra systemd-kcm
->extra plasma-wayland-session
+>extra plasma-systemmonitor
 >extra xdg-user-dirs
 >extra ark
 # optional dependencies of ark:
@@ -26,18 +25,18 @@ konsole
 
 ## package manager
 >extra octopi
->extra octopi-notifier-frameworks
+#>extra octopi-notifier-frameworks
 # optional dependencies of octopi:
->extra octopi-cachecleaner
->extra octopi-repoeditor
+>extra octopi
+>extra
 >extra pacmanlogviewer
 
 ## AUR support
 >extra base-devel
 >extra git
->extra yaourt
+>extra yay
 
 ## manjaro settings manager
 >extra manjaro-settings-manager
->extra manjaro-settings-manager-kcm
+>extra manjaro-settings-manager
 >extra manjaro-settings-manager-knotifier

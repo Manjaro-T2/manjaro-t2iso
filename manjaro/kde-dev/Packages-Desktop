@@ -25,8 +25,8 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
+libcanberra
+>multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 
@@ -64,7 +64,7 @@ libtool
 m4
 make
 patch
-pkg-config
+pkgconf
 >multilib lib32-flex
 # Extra packages for AUR support
 >extra git
@@ -86,8 +86,8 @@ terminus-font
 ## Games
 
 ## Package management
-#appimagelauncher
-packagekit-qt5
+#libappimage
+packagekit
 discover
 flatpak
 xdg-desktop-portal
@@ -102,7 +102,7 @@ octopi
 #>extra cups-pk-helper
 #>extra ghostscript
 #>extra gsfonts
-#>extra gtk3-print-backends
+#>extra gtk3
 #>extra hplip
 #>extra splix
 
@@ -122,15 +122,15 @@ sddm-kcm
 
 ## Plasma5
 bluedevil
-kde-gtk-config
+kde-gtk3-config
 kdeplasma-addons
-kgamma5
+kgamma
 kinfocenter
 kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
+plasma-systemmonitor
 kwallet-pam
 kwayland-integration
 kwin
@@ -141,7 +141,7 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-systemmonitor
-plasma-wayland-session
+
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -177,7 +177,7 @@ kdeconnect
 okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+>extra >i686 kget
 kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
@@ -248,12 +248,12 @@ inxi
 #>extra libreoffice-fresh
 >extra calligra
 #manjaro-hello
-manjaro-settings-manager-kcm
+manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
 screenfetch
-systemd-kcm
+plasma-systemmonitor
 #>extra thunderbird
 vlc
 yakuake
@@ -271,7 +271,7 @@ yakuake
 
 ## Settings packages
 #>extra manjaro-kde-settings
-#>basic manjaro-kde-minimal-settings
+#>basic manjaro-kde-settings
 #manjaro-browser-settings
 
 ## Xorg Input Drivers

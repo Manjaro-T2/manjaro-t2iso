@@ -35,8 +35,8 @@ software-center-web-jak # for url handler's and discover
 >extra vlc
 >extra gufw
 >extra deja-dup
->extra syncthing-gtk
->extra hardinfo
+>extra syncthingtray
+>extra hardinfo2
 >extra gthumb
 >extra evince
 >extra geary
@@ -73,7 +73,7 @@ gnome-keyring
 
 #manjaro-hello
 >basic squashfs-tools
->basic disable-tracker
+#>basic disable-tracker
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -115,8 +115,8 @@ xorg-xinit
 pamac-gtk
 >extra snapd
 >extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+#>extra pamac-snap-plugin
+#>extra pamac-flatpak-plugin
 >extra apparmor
 
 
