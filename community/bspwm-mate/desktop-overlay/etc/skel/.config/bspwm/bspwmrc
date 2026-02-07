@@ -107,7 +107,7 @@ bspc config external_rules_command /usr/bin/pseudo_automatic_mode
 
 ##Autostart apps
 #Keybindings daemon
-#sxhkd &
+#gxkb &
 #Source autostartfile. Uncomment this if you use bspwm-git
 #. $HOME/.config/bspwm/autostart
 xsetroot -cursor_name left_ptr &

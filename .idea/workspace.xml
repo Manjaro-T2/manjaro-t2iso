@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Packages-Mhwd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Mhwd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm-mate/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm-mate/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm-mate/desktop-overlay/etc/skel/.config/bspwm/bspwmrc" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm-mate/desktop-overlay/etc/skel/.config/bspwm/bspwmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm-mate/desktop-overlay/etc/skel/.config/sxhkd/sxhkdrc" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm-mate/desktop-overlay/etc/skel/.config/sxhkd/sxhkdrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/bspwm/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/bspwm/Packages-Desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/i3/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/i3/Packages-Desktop" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

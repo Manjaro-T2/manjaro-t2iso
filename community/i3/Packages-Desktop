@@ -73,7 +73,7 @@ manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
 >extra matcha-gtk-theme
 mesa-utils
-mlocate
+plocate
 mobile-broadband-provider-info
 #moc
 modemmanager
@@ -94,12 +94,12 @@ ntp
 openssh
 p7zip
 palemoon
-pamac
+yay
 patch
 patchutils
 pcmanfm
 perl-file-mimeinfo
-pkg-config
+pkgconf
 polkit-gnome
 >extra poppler-data
 powertop
@@ -120,7 +120,7 @@ ttf-dejavu
 >extra ttf-liberation
 >basic ufw
 upower
-vi
+vim
 >extra vibrancy-icons-teal
 viewnior
 vim

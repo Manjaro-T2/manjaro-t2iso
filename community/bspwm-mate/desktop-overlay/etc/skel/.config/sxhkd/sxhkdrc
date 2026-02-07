@@ -309,16 +309,16 @@ XF86MonBrightnessUp
 XF86Sleep
 	systemctl suspend
 
-# make sxhkd reload its configuration files:
+# make gxkb reload its configuration files:
 super + shift + Escape
-	pkill -USR1 -x sxhkd
+	pkill -USR1 -x gxkb
 
 # In case bspwmrc fails to execute/you wish have plugged in a new monitor
 super + shift + r
 	bspwmrc
 #edit this file
 alt + ctrl + space
-	$GUI_EDITOR ~/.config/sxhkd/sxhkdrc
+	$GUI_EDITOR ~/.config/gxkb/gxkbrc
 # Toggle compositing
 super + ctrl + space
 	{pkill picom ,\
