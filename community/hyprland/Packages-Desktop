@@ -2,7 +2,7 @@
 
 ## Base
 
-manjaro-hyprland-settings
+manjaro-hyprland-settings-git
 
 ## Hyprland Extras
 
@@ -22,14 +22,14 @@ libnotify
 wlsunset # time & place based light temperature
 >extra kanshi # automatically load matching output profiles
 >extra autotiling-rs # automated tiling
->extra sworkstyle # dynamic workspace icons in waybar
+#>extra sworkstyle # dynamic workspace icons in waybar
 #>extra swaycwd # determines the cwd of a sway container
->extra zeit # command line time tracker
+#>extra zeit # command line time tracker
 
 ## Wayland support
 
 xorg-xwayland # xorg-wayland bridge
->extra wlay # graphical display management like arandr
+#>extra wlay # graphical display management like arandr
 qt5-wayland
 qt6-wayland
 gnome-keyring # unlock keyring on login
