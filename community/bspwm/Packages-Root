@@ -88,7 +88,7 @@ rsync
 
 systemd-sysvcompat
 tlp
-wpa_supplicant_t2
+t2manjaro/wpa_supplicant
 iwd
 tar
 texinfo
