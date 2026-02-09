@@ -188,7 +188,7 @@ grub-theme-manjaro
 #>extra microsoft-office-online-jak
 #>extra freeoffice
 >extra manjaro-hello
->extra manjaro-application-utility
+#>extra manjaro-application-utility
 >extra manjaro-settings-manager
 >extra manjaro-settings-manager-notifier
 # >basic epiphany  # no browser in minimal iso

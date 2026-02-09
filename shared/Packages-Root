@@ -92,7 +92,8 @@ vim
 wget
 which
 wireless-regdb
-wpa_supplicant
+wpa_supplicant_t2
+iwd
 xfsprogs
 
 # t2linux

@@ -69,7 +69,7 @@ lightdm-slick-greeter
 m4
 make
 manjaro-alsa
-manjaro-application-utility
+#manjaro-application-utility
 manjaro-browser-settings
 manjaro-cinnamon-settings
 manjaro-hello
@@ -160,3 +160,6 @@ xorg-xkill
 >extra yay
 yelp
 zensu
+fastfetch
+chafa
+dconf

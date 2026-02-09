@@ -87,7 +87,8 @@ nfs-utils
 rsync
 systemd-sysvcompat
 tlp
-wpa_supplicant
+wpa_supplicant_t2
+iwd
 tar
 texinfo
 usbutils

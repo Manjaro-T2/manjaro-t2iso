@@ -198,7 +198,7 @@ gparted
 htop
 ibus
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility
 >extra manjaro-dynamic-wallpaper
 beelink-dynamic-wallpaper
 manjaro-settings-manager-notifier

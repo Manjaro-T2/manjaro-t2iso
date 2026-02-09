@@ -44,11 +44,11 @@ ttf-meslo-nerd-font-powerlevel10k  # default GNOME Console font for manjaro-zsh-
 
 ## Package management
 
-pamac-gnome-integration
->extra pamac-flatpak-plugin
-pamac-gtk
+#pamac-gnome-integration
+#>extra pamac-flatpak-plugin
+#pamac-gtk
 #>extra pamac-snap-plugin
-
+yay
 
 ## Printing
 
@@ -274,7 +274,7 @@ htop
 inxi
 #>extra libappindicator-gtk3       # no longer required?
 #lollypop
-manjaro-application-utility        # optional for manjaro-hello
+#manjaro-application-utility        # optional for manjaro-hello
 #manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
 manjaro-settings-manager
@@ -334,4 +334,8 @@ manjaro-gnome-settings
 xorg-server                        # optional for libgdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
 #xorg-xinit                        # not needed by anything
-
+pdftricks
+gnome-weather
+gnome-weather
+fastfetch
+chafa

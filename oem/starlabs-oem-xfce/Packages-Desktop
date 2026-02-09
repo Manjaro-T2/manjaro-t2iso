@@ -175,7 +175,7 @@ inxi
 #>extra microsoft-office-online-jak
 #>extra freeoffice
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic epiphany

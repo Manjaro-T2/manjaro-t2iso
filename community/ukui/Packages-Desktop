@@ -14,7 +14,7 @@ grub-theme-manjaro
 manjaro-wallpapers-18.0
 wallpapers-2018
 gnome-disk-utility
-manjaro-application-utility
+#manjaro-application-utility
 mc # Midnight Commander
 pacui
 #mhwd-tui

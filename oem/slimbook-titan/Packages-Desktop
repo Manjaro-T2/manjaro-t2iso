@@ -82,7 +82,7 @@ packagekit
 #
 #octopi-notifier-frameworks
 #pamac-qt
-#manjaro-application-utility
+##manjaro-application-utility
 
 ## Printing
 >extra manjaro-printer
@@ -218,7 +218,7 @@ inxi
 #>extra freeoffice
 >extra libreoffice-still
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
 plasma-systemmonitor

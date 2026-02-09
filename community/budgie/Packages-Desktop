@@ -69,7 +69,7 @@ manjaro-browser-settings
 
 manjaro-settings-manager-notifier
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility
 >extra snapd
 mesa-demos
 mobile-broadband-provider-info

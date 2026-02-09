@@ -86,7 +86,7 @@ manjaro-grub-theme-glassfield
 
 
 manjaro-hello
-manjaro-application-utility
+#manjaro-application-utility
 mesa-demos
 mousetweaks
 >multilib lib32-mesa-demos
