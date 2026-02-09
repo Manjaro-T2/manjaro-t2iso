@@ -5,7 +5,7 @@
 ## Normal MHWD package list
 
 #linux61-t2-r8168
-pulseaudio-utils
+#pulseaudio-utils
 zfs-utils
 #linux61-t2-rt3562sta
 #linux61-t2-virtualbox-guest-modules
