@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/greetd/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/greetd/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/greetd/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
