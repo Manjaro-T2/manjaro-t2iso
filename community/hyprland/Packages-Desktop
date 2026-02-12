@@ -2,24 +2,22 @@
 
 ## Base
 
-#manjaro-hyprland-settings-git
+#manjaro-hyprland/manjaro-hyprland-settings
 
 ## Hyprland Extras
-
-hyprpaper # background switcher
-matcha-gtk-theme
-wlogout
+hyprland
+kitty
 rofi
 waybar
+wlogout
 grim
-slurp
-alacritty
-kitty
-mako
-libnotify
+slurp 
+networkmanager-dmenu
+
+swaybg # background switcher
 #>extra flashfocus # nicer flashing on focus change
-#swaylock-effects # swaylock with nicer effects
-wlsunset # time & place based light temperature
+hyprlock # swaylock with nicer effects
+>extra wlsunset # time & place based light temperature
 >extra kanshi # automatically load matching output profiles
 >extra autotiling-rs # automated tiling
 #>extra sworkstyle # dynamic workspace icons in waybar
@@ -29,12 +27,12 @@ wlsunset # time & place based light temperature
 ## Wayland support
 
 xorg-xwayland # xorg-wayland bridge
-#>extra wlay # graphical display management like arandr
+>extra nwg-displays # graphical display management like arandr
 qt5-wayland
 qt6-wayland
 gnome-keyring # unlock keyring on login
 polkit-kde-agent # polkit for visual superuser access
->extra xdg-desktop-portal-hyprland
+xdg-desktop-portal-hyprland
 manjaro-pipewire
 
 ## Btrfs
@@ -42,7 +40,10 @@ grub-btrfs
 >extra timeshift-autosnap-manjaro
 
 ## Greeter
-gdm
+
+greetd
+greetd-tuigreet
+
 ## Browser
 
 firefox
@@ -60,10 +61,11 @@ kvantum
 #pcmanfm-gtk3
 gvfs
 >extra gvfs-mtp
-file-roller
-7zip
+>extra file-roller
+>extra 7zip
 
 ## Sound, video and bluetooth
+
 pulsemixer
 bluez
 bluez-utils
@@ -74,8 +76,7 @@ playerctl
 avahi
 nss-mdns
 networkmanager
-network-manager-applet
-alacritty
+>extra network-manager-applet
 dhclient
 
 ## Multimedia
@@ -98,14 +99,11 @@ yay
 
 ## Utils
 
->extra apparmor
+apparmor
 xdg-user-dirs
 >extra manjaro-settings-manager
 >extra manjaro-settings-manager-notifier
-gnome-settings-daemon
-upower
-cpupower
-
+nautilus
 ## Extra fonts
 
 >extra wqy-microhei
@@ -114,15 +112,12 @@ cpupower
 
 curl
 jq
+zsh
 manjaro-zsh-config
 wget
 wl-clipboard # wayland clipboard application
 cliphist # clipboard history application
-xdg-desktop-portal-hyprland
 
 ## Misc
-gnome-extra
-nautilus
-nwg-shell
-nwg-dock-hyprland
+#manjaro-hotfixes
 >basic squashfs-tools

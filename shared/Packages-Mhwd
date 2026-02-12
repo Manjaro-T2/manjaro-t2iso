@@ -6,11 +6,9 @@
 
 #linux61-t2-r8168
 #pulseaudio-utils
-zfs-utils
 #linux61-t2-rt3562sta
 #linux61-t2-virtualbox-guest-modules
 linux612-t2-headers
-zfs-dkms
 open-vm-tools
 libva-intel-driver
 mesa
@@ -21,13 +19,10 @@ libxpm
 libxvmc
 gtkmm3
 spice-vdagent
-virtualbox-guest-utils
 vulkan-mesa-layers
 vulkan-swrast
 vulkan-virtio
 vulkan-icd-loader
-vulkan-radeon
-mesa
 >multilib lib32-mesa
 >multilib lib32-libxvmc
 >multilib lib32-primus
@@ -36,7 +31,6 @@ primus
 qemu-guest-agent
 bumblebee
 nvidia-prime
-gtkmm3
 spice-vdagent
 virtualbox-guest-utils
 vulkan-radeon

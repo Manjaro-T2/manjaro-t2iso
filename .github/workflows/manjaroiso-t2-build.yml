@@ -1,11 +1,12 @@
 name: iso_build
 on:
   workflow_dispatch:
-  # remove if you don't want to build on a schedule
-  # remove if you don't want to build when commits are pushed to you main/master branch
+    - cron: '0 3 1 * *'
   push:
-    branches:
+   branches:
       - senpai
+permissions:
+  contents: write
 
 jobs:
   prepare-release:
@@ -28,7 +29,7 @@ jobs:
     strategy:
       matrix:
         ##### EDIT ME #####      
-        EDITION: [cinnamon, gnome, kde, i3, xfce]
+        EDITION: [cinnamon, gnome, kde, i3, xfce,hyprland]
         BRANCH: [stable]
         SCOPE: [full]
         ###################
@@ -40,11 +41,11 @@ jobs:
       - id: image-build
         uses: manjaro/manjaro-iso-action@main
         with:
-          iso-profiles-repo: "https://github.com/Manjaro-T2/manjaro-t2iso"
+          iso-profiles-repo: "https://github.com/RishonDev/manjaro-t2iso"
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
-          version: "26.0-t2"
+          version: "26.02-t2"
           kernel: linux612-t2
           code-name: "Arh Linh "
           # providing a release-tag allows for github releases
