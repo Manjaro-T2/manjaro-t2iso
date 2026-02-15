@@ -14,6 +14,7 @@ grim
 slurp 
 networkmanager-dmenu
 
+
 swaybg # background switcher
 #>extra flashfocus # nicer flashing on focus change
 hyprlock # swaylock with nicer effects
@@ -121,3 +122,4 @@ cliphist # clipboard history application
 ## Misc
 #manjaro-hotfixes
 >basic squashfs-tools
+nwg-dock-hyprland

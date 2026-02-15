@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="Tweaks">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/manjaroiso-t2-build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/manjaroiso-t2-build.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/Packages-Mhwd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/environment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/pam.d/polkit-1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/pam.d/sudo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/hypr/config.d/default.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/skel/.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/sudoers.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/sway/config.d/00-live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/live-overlay/etc/sway/config.d/99-live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/user-repos.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/community/hyprland/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/hyprland/Packages-Desktop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manjaro/gnome/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/gnome/Packages-Desktop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Packages-Mhwd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Mhwd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Root" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
