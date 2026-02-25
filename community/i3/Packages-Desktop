@@ -65,7 +65,7 @@ make
 >multilib manjaro-alsa
 manjaro-browser-settings
 >extra manjaro-hello
-manjaro-i3-settings
+#manjaro-i3-settings
 >extra manjaro-printer
 manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
