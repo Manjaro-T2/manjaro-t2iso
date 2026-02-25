@@ -51,14 +51,11 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
-# >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -67,13 +64,10 @@ terminus-font
 
 ## Package management
 >extra apparmor
-#>extra gnome-software-snap
 yay
 gnome-software
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
 
 ## Printing
 >extra manjaro-printer
@@ -106,14 +100,12 @@ gufw
 htop
 inxi
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 powertop
 screenfetch
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
 manjaro-browser-settings
@@ -146,9 +138,7 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-#polkit-gnome
 >extra timeshift
-#>extra kernel-alive
 
 ## Misc
 

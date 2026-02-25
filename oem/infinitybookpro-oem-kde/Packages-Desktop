@@ -49,7 +49,6 @@ udiskie
 udisks2
 
 ## AUR Support/Development
-# Missing base-devel packages
 autoconf
 automake
 binutils
@@ -63,13 +62,11 @@ make
 patch
 pkgconf
 >multilib lib32-flex
-# Extra packages for AUR support
 git
 patchutils
 subversion
 
 ## Fonts
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
@@ -87,21 +84,12 @@ ttf-droid
 
 ## Package management
 libappimage
-#pamac
-#pamac-tray-appindicator
-#pamac-cli
 
 apparmor
 snapd
 snapd-glib
-#pamac-snap-plugin
-#discover-snap
-#discover
-#packagekit
 flatpak
 fwupd
-#pamac-qt
-#manjaro-application-utility
 
 ## Printing
 manjaro-printer
@@ -148,8 +136,6 @@ systemsettings
 
 
 ## Themes QT/GTK/SDDM
-#breeze
-#breeze-gtk
 adwaita-icon-theme
 gtk-theme-breath
 oxygen # needed to provide KDE system sounds
@@ -165,7 +151,6 @@ wallpapers-tuxedo
 ## KDE Applications
 ark
 audiocd-kio
-#digikam
 dolphin
 dolphin-plugins
 filelight
@@ -180,11 +165,9 @@ okular
 >x86_64 libktorrent
 >i686 kget
 kdenetwork-filesharing
-#kdenlive
 khelpcenter
 
 kio-extras
-#kleopatra
 konsole
 konversation
 ksystemlog
@@ -200,8 +183,6 @@ spectacle
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#kipi-plugins  # export to various online services
-#hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -227,12 +208,6 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#cdrtools         # for creation of DVD ISO images
-#dvdauthor        # for creation of DVD
-#dvgrab           # for firewire capture
-#recordmydesktop  # for screen capture
-#vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
@@ -245,14 +220,9 @@ dmidecode # for inxi -m output
 htop
 imagewriter
 inxi
-#krita
 firefox
-#ms-office-online
-#freeoffice
 libreoffice-still
-#calligra
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
@@ -271,7 +241,6 @@ jre8-openjdk
 jdk8-openjdk
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
 manjaro-kde-tx-settings
@@ -306,7 +275,6 @@ perl-file-mimeinfo
 xdg-utils
 polkit-gnome
 timeshift
-#kernel-alive
 
 ## Misc
 bootsplash-theme-manjaro

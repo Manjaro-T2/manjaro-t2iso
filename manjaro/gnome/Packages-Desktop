@@ -9,9 +9,7 @@ networkmanager                     # optional for gnome-control-center
 >extra networkmanager-vpnc
 >extra modemmanager                # optional for networkmanager
 >extra nss-mdns                    # optional for avahi; avahi required by gvfs
-#ntp
 >extra openssh                     # optional for gnome-control-center
-#usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
 
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-appindicator
@@ -38,7 +36,6 @@ grub-btrfs
 
 ## Fonts
 
-#adwaita-fonts                     # required by gsettings-desktop-schemas
 noto-fonts                         # default font, provides ttf-font
 >extra noto-fonts-cjk              # Asian fonts, optional for noto-fonts
 >extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
@@ -51,10 +48,6 @@ ttf-meslo-nerd-font-powerlevel10k  # default GNOME Console font for manjaro-zsh-
 
 ## Package management
 
-#pamac-gnome-integration
-#>extra pamac-flatpak-plugin
-#pamac-gtk
-#>extra pamac-snap-plugin
 yay
 
 ## Printing
@@ -67,41 +60,32 @@ yay
 
 >extra baobab
 decibels
-#epiphany                          # Firefox included as default browser
 gdm
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
 >extra gnome-characters
 gnome-clocks
-#gnome-color-manager               # required by gnome-control-center
 >extra gnome-connections
 gnome-console
 >extra gnome-contacts
 gnome-control-center
 gnome-disk-utility
 >extra gnome-font-viewer
-#gnome-keyring                     # required by xdg-desktop-portal-gnome
 gnome-logs
 >extra gnome-maps
-#gnome-menus                       # required by gnome-shell-extension-arc-menu
 gnome-music
 >extra gnome-remote-desktop        # optional for gnome-control-center
-#gnome-session                     # required by gdm & gnome-shell
-#gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
 gnome-shell
-#gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
 gnome-text-editor
 gnome-tour
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 gnome-weather
-#>extra grilo-plugins               # required by gnome-music, optional for totem
 gvfs
 >extra gvfs-afc
 >extra gvfs-dnssd
-#>extra gvfs-goa                   # required by gvfs-google, optional for gnome-online-accounts
 >extra gvfs-google                 # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
@@ -112,112 +96,33 @@ gvfs
 loupe
 malcontent                         # optional for gnome-control-center
 nautilus
-#orca
 papers
 >extra rygel                       # optional for gnome-control-center
 showtime
 >extra simple-scan
 >extra snapshot
-#sushi
-#tecla                             # required by gnome-control-center
-#xdg-desktop-portal-gnome          # required by gnome-session
-#xdg-user-dirs-gtk                 # required by nautilus
-#yelp                              # required by gnome-user-docs
 
 
 ## GNOME Extra applications
 
-#chatty                            # gnome-mobile
-#d-spy                             # developer tools
-#>extra dconf-editor               # developer tools
-#devhelp                           # developer tools
 >extra endeavour
 file-roller
-#ghex
 >extra gnome-boxes                 # developer tools
-#gnome-builder                     # developer tools
-#gnome-calls                       # gnome-mobile
-#gnome-sound-recorder
 gnome-tweaks
-#gnome-usage
-#sysprof                           # developer tools
 
 
 ## GNOME Extra games
 
 >extra gnome-chess
-#gnome-mahjongg
 >extra gnome-mines
-#gnome-nibbles
-#gnome-robots
-#gnome-sudoku
-#lightsoff
 >extra quadrapassel
-#swell-foop
 
 
 ## GNOME Circle group
 
-#amberol
-#apostrophe
-#audio-sharing
-#authenticator
-#biblioteca
-#binary
-#blanket
-#bustle
-#cartridges
-#chess-clock
-#citations
-#clairvoyant
 >extra collision
-#commit
-#curtail
-#decoder
 >extra deja-dup
-#dialect
-#eartag
-#elastic
-#eyedropper
-#emblem
-#errands
-#forge-sparks
 >extra fragments
-#fretboard
-#gaphor
-#gnome-podcasts
-#graphs
-#health
-#hieroglyphic
-#identity
-#impression
-#iotas
-#junction
-#komikku
-#letterpress
-#lorem
-#mousai
-#newsflash
-#obfuscate
-#paper-clip
-#pika-backup
-#polari
-#raider
-#railway
-#resources
-#secrets
-#share-preview
-#shortwave
-#solanum
-#switcheroo
-#tangram
-#textpieces
-#tuba
-#valuta
-#video-trimmer
-#warp
-#webfont-kit-generator
-#wike
 
 
 ## GNOME Shell Extensions
@@ -239,68 +144,43 @@ gnome-tweaks
 adw-gtk-theme
 bibata-cursor-theme
 gnome-themes-extra
-#gnome-wallpapers
 grub-theme-manjaro
 kvantum-manjaro
-#>extra illyria-wallpaper
 manjaro-gnome-backgrounds
-#>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
 plymouth-theme-manjaro
 qt5ct
 qt6ct
-#>extra wallpapers-2018
-#>extra wallpapers-juhraya
 
 
 ## Applications
 
 >extra apparmor
-#evince                            # required by sushi
-#evolution                         # thunderbird included instead
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
 firefox
 fprintd                            # needed for fingerprint reader, optional for gdm
-#fwupd                             # required by gnome-firmware, optional for gnome-control-center
-#gedit                             # using gnome-text-editor
 gnome-browser-connector
 gnome-firmware
-#gnome-games
 >extra gnome-layout-switcher
-#gnome-photos
-#gnome-terminal
 >extra gnuchess                    # optional for gnome-chess to play against computer
-#>extra gthumb
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
 htop
 >extra iagno
-#ibus                              # required by gnome-shell
 inxi
-#>extra libappindicator-gtk3       # no longer required?
-#lollypop
-#manjaro-application-utility        # optional for manjaro-hello
-#manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-#mousetweaks
 >extra nautilus-admin
 nautilus-empty-file
 nautilus-open-any-terminal
-#>extra onlyoffice-desktopeditors  # office program is chosen during install
-#polkit-gnome                      # deprecated
 power-profiles-daemon              # optional for gnome-control-center
 >extra seahorse
 >extra thunderbird
 >extra timeshift
-#tlp                               # conflicts with power-profiles-daemon
-#totem                             # replaced with showtime
-#>extra touche                     # only works with Xorg
 >extra webapp-manager
 wl-clipboard                       # optional for micro, required for clipboard functionality on Wayland
-#xdg-utils                         # already a dependency of anything that requires it
 
 
 ## Optional dependencies for file-roller
@@ -308,7 +188,6 @@ wl-clipboard                       # optional for micro, required for clipboard 
 >extra squashfs-tools
 >extra unace
 >extra unrar
-#>extra unzip                      # required by gnome-shell
 >extra zip
 
 
@@ -318,11 +197,9 @@ mesa-utils
 
 
 ## Documentation
-#manjaro-documentation-en
 
 
 ## Settings packages
-#>extra lighter-gnome
 manjaro-base-skel
 manjaro-browser-settings
 >extra manjaro-gnome-extension-settings
@@ -335,11 +212,7 @@ manjaro-gnome-settings
 
 
 ## Xorg Server
-#numlockx                          # not used and not needed
-#xorg-mkfontscale                  # not needed by anything
 xorg-server                        # optional for libgdm
-#xorg-twm                          # antiquated; optional for xorg-xinit
-#xorg-xinit                        # not needed by anything
 pdftricks
 fastfetch
 chafa

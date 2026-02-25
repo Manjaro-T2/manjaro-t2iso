@@ -51,7 +51,6 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -67,8 +66,6 @@ discover
 xdg-desktop-portal
 xdg-desktop-portal-kde
 fwupd
-#pamac-cli
-#pamac-tray-icon-plasma
 
 ## Display manager
 sddm

@@ -18,7 +18,6 @@ falkon
 imagewriter
 gsmartcontrol
 gparted
-# optional dependencies of gparted:
 dosfstools
 f2fs-tools
 btrfs-progs

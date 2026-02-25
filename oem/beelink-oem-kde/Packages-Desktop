@@ -60,9 +60,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -79,37 +77,20 @@ terminus-font
 >x86_64 >extra steamos-compositor-plus
 
 ## Package management
-#>extra libappimage
 yay
 flatpak
 >extra apparmor
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
-#discover-snap
-#discover
 packagekit
 >extra fwupd 
-#octopi
-#octopi
 #
-#octopi-notifier-frameworks
-#pamac-qt
-#manjaro-application-utility
 
 ## Printing
-#>extra manjaro-printer
-#>extra gtk
 
 ## Optional dependencies for hplip
-#>extra python-pillow
-#>extra python-pip
-#>extra python-pyqt5
-#>extra python-reportlab
 
 ## Optional dependencies for print-manager
-#>extra system-config-printer  # auto-detect the printer driver
 
 ## Display manager
 sddm
@@ -172,8 +153,6 @@ ksystemlog
 kwalletmanager
 gwenview
 partitionmanager
-#>extra print-manager
-#>extra skanlite
 spectacle
 
 ## Optional dependencies for ark
@@ -208,7 +187,6 @@ htop
 inxi
 >extra libreoffice-fresh
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
@@ -227,11 +205,8 @@ yakuake
 >extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
 manjaro-browser-settings
@@ -274,8 +249,6 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
-#>extra kernel-alive
-#gnome-firmware
 
 ## Misc
 

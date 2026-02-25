@@ -51,35 +51,13 @@ udiskie
 udisks2
 
 ## AUR Support/Development
-# Missing base-devel packages
-#autoconf
-#automake
-#binutils
-#bison
-#fakeroot
-#flex
-#gcc
-#libtool
-#m4
-#make
-#patch
-#pkg-config
-#>multilib lib32-flex
-# Extra packages for AUR support
-#>extra git
-#>extra patchutils
-#>extra subversion
-#yay
 
 ## Fonts
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
 >extra ttf-bitstream-vera
 ttf-dejavu
-# ttf-hack               # Installed as plasma-integration dependency
 >extra ttf-inconsolata
 >extra ttf-indic-otf
 >extra ttf-liberation
@@ -89,16 +67,9 @@ ttf-dejavu
 >extra steam-manjaro
 
 ## Package management
-#packagekit
-#discover
 flatpak
-#fwupd
-#octopi
-#octopi
 #
-#octopi-notifier-frameworks
 gnome-software
-#pamac-tray-appindicator
 
 ## Printing
 >extra cups
@@ -148,12 +119,8 @@ systemsettings
 
 
 ## Themes QT/GTK/SDDM
-#breeze
-#breeze-gtk
 adwaita-icon-theme
 gtk-theme-breath
-#>extra oxygen
-#>extra oxygen-icons
 plasma5-themes-breath  # Default
 sddm-breath-theme  # Default
 grub-theme-manjaro
@@ -163,11 +130,9 @@ illyria-wallpaper
 
 ## KDE Applications
 ark
-#>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -178,10 +143,8 @@ okular
 >extra >x86_64 libktorrent
 >extra >i686 kget
 kdenetwork-filesharing
-#>extra kdenlive
 khelpcenter
 kio-extras
-#>extra kleopatra
 konsole
 konversation
 ksystemlog
@@ -197,8 +160,6 @@ spectacle
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
-#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -210,12 +171,6 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
-#>extra cdparanoia    # for cd ripping support
-#>extra cdrdao        # for disk-at-once (DAO) mode support
-#>extra dvd+rw-tools  # for dvd burning support
-#>extra emovix        # for bootable multimedia cd/dvd support
-#>extra transcode     # for advanced mpeg conversion support
-#>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -224,12 +179,6 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#>extra cdrtools         # for creation of DVD ISO images
-#>extra dvdauthor        # for creation of DVD
-#>extra dvgrab           # for firewire capture
-#>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
@@ -239,35 +188,26 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 libappimage
-#>extra cantata
 dmidecode # for inxi -m output
 htop
 imagewriter
 inxi
-#>extra krita
 >extra firefox
 >basic falkon
-#ms-office-online
 >extra libreoffice-fresh
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
-#>extra qbittorrent
 screenfetch
 >extra thunderbird
 vlc
 yakuake
 
 ## Optional dependencis for cantata
-#>extra mpd       # playback
-#>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
 >extra manjaro-kde-settings
@@ -301,9 +241,6 @@ polkit-gnome
 
 
 ## Flatpak support
-#>extra flatpak
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde
 
 ## OEM
 calamares-oem-modules

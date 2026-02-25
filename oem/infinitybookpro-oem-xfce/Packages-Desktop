@@ -45,7 +45,6 @@ udiskie
 udisks2
 
 ## AUR Support/Development
-# Missing base-devel packages
 autoconf
 automake
 binutils
@@ -59,7 +58,6 @@ make
 patch
 pkgconf
 >multilib lib32-flex
-# Extra packages for AUR support
 git
 patchutils
 subversion
@@ -78,8 +76,6 @@ ttf-liberation
 ttf-droid
 
 ## Package management
-#pamac-gtk
-#pamac-snap-plugin
 flatpak
 yay
 ## Java
@@ -101,7 +97,6 @@ exo
 garcon
 thunar
 thunar-volman
-#gtkhash-thunar
 tumbler
 xfce4-appfinder
 xfce4-panel
@@ -128,12 +123,10 @@ orage
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
@@ -156,7 +149,6 @@ xfce4-wavelan-plugin
 xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-#xfce4-pulseaudio-plugin
 pavucontrol
 xcape
 
@@ -179,7 +171,6 @@ crossover-extras
 dmidecode # optional dependency inxi
 engrampa
 firefox
-# flashplugin
 galculator
 gcolor3
 gimp
@@ -191,15 +182,12 @@ htop
 okular
 inxi
 libreoffice-still
-#ms-office-online
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 plocate
 mousepad
 mugshot
-#pidgin
 powertop
 screenfetch
 poppler-data  # CKJ support for pdf
@@ -210,7 +198,6 @@ viewnior
 xfburn
 yelp
 
-# Optional dependencies engrampa
 7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
@@ -258,7 +245,6 @@ xdg-utils
 
 linux612-t2-headers
 timeshift
-#kernel-alive
 
 ## OEM
 calamares-oem-modules

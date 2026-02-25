@@ -51,14 +51,11 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
-# >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -67,13 +64,9 @@ terminus-font
 
 ## Package management
 >extra apparmor
-#>extra gnome-software-snap
-#pamac-gtk
 gnome-software
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
 
 ## Printing
 >extra manjaro-printer
@@ -113,12 +106,10 @@ menulibre
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 >extra xfce4-dict
 >extra xfce4-diskperf-plugin
 >extra xfce4-fsguard-plugin
@@ -141,7 +132,6 @@ xfce4-taskmanager
 >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-#xfce4-pulseaudio-plugin
 pavucontrol
 
 ## Themes
@@ -160,7 +150,6 @@ bash-completion
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
-# >extra flashplugin
 >extra galculator
 gcolor3
 >extra gimp
@@ -170,12 +159,8 @@ gufw
 >extra weechat
 htop
 inxi
-#>extra libreoffice-still
-#>extra microsoft-office-online-jak
-#>extra freeoffice
 >extra onlyoffice-desktopeditors
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic epiphany
@@ -183,28 +168,23 @@ manjaro-settings-manager-notifier
 mousepad
 mugshot
 >basic parole # media player
-#>extra pidgin
 powertop
 screenfetch
 evince
 >extra poppler-data  # CKJ support for pdf
-#>basic sylpheed # mail client
 >extra thunderbird
 >extra vlc
 >extra viewnior
 >extra xfburn
 >extra yelp
 
-# Optional dependencies engrampa
 7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
-#>extra manjaro-xfce-gtk3-settings
 >basic manjaro-xfce-settings
 manjaro-browser-settings
 
@@ -236,12 +216,9 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-#polkit-gnome
 >extra timeshift
-#>extra kernel-alive
 
 ## Misc
-#gtkhash-thunar
 
 >basic squashfs-tools
 xiccd # enable color profile settings

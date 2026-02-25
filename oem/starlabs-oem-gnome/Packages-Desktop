@@ -21,7 +21,6 @@ btrfsmaintenance
 ## Libraries for Sound/Audio/Video
 >extra manjaro-alsa
 >extra manjaro-gstreamer
-#>extra manjaro-modem              # ?
 >extra
 >extra libdvdcss
 
@@ -34,20 +33,14 @@ ttf-indic-otf
 ttf-liberation
 noto-fonts                         # default font
 >extra noto-fonts-emoji
-#noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 
 ## Games
-#>x86_64 >extra steam-manjaro
 
 ## Package management
-#pamac-gtk
-#pamac-gnome-integration
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
 yay
 
 ## Printing
@@ -66,32 +59,24 @@ gedit
 gnome-calculator
 >extra gnome-characters
 >extra gnome-clocks
-#gnome-color-manager               # required by gnome-control-center
 gnome-disk-utility
 >extra gnome-font-viewer
-#yelp                              # required by gnome-user-docs
 gnome-logs
-#>extra gnome-maps
 gnome-system-monitor
-#epiphany                          # Firefox included as default browser
-#gnome-screenshot                  # New screenshot tool integrated
 totem
 gnome-weather
 >basic gdm                         # gdm-plymouth in full edition
 gnome-backgrounds
 gnome-control-center
 gnome-keyring
-#gnome-menus                       # optional for gnome-shell-extensions
 gnome-session
 gnome-settings-daemon
 gnome-shell-extensions
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
-#gnome-video-effects               # required by cheese
 grilo-plugins
 gvfs
 >extra gvfs-afc
-#>extra gvfs-goa                   # required by gvfs-google; optional for gnome-control-center
 >extra gvfs-google                 # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
@@ -102,59 +87,21 @@ mutter
 sushi
 
 xdg-user-dirs-gtk
-#gnome-books
-#eog                               # gthumb included instead
 nautilus
-#orca
-#gnome-music                       # lollypop included instead
-#gnome-photos
 gnome-software
 gnome-terminal
-#tracker                           # deprecated
-#tracker-miners                    # deprecated
 
 ## GNOME Extra applications
 >extra dconf-editor
 >extra geary
 gnome-tweaks
-#gnome-usage
-#gnome-sound-recorder
 >extra gnome-todo
-#accerciser
-#gnome-builder
-#gnome-connections
-#devhelp
-#gnome-documents
-#evolution                         # geary included instead
-#gnome-games
-#glade
-#gnome-code-assistance
-#gnome-devel-docs
-#ghex
-#gnome-multi-writer
-#polari
-#gnome-recipes
-#sysprof
 
 ## GNOME Extra games
-#five-or-more
-#four-in-a-row
 >extra gnome-chess
 >extra gnome-mines
 >extra iagno
 >extra quadrapassel
-#hitori
-#gnome-klotski
-#gnome-mahjongg
-#gnome-nettool
-#gnome-nibbles
-#gnome-robots
-#gnome-soudoku
-#gnome-taquin
-#gnome-tetravex
-#lightsoff
-#swell-foop
-#tali
 
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
@@ -165,15 +112,10 @@ gnome-tweaks
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
-#>extra gnome-shell-extension-material-shell
-#>extra gnome-shell-extension-x11gestures
 
 ## Themes
-#adwaita-maia
 adw-gtk-theme
 
-#manjaro-gdm-theme                 # Needs updating for GNOME 42
-#>extra gdm-plymouth
 >extra plymouth-theme-manjaro
 gnome-wallpapers
 papirus-maia-icon-theme
@@ -208,7 +150,6 @@ gparted
 htop
 ibus
 manjaro-hello
-#manjaro-application-utility
 >extra manjaro-dynamic-wallpaper
 manjaro-settings-manager-notifier
 mousetweaks
@@ -224,9 +165,6 @@ lollypop
 >extra fragments
 >extra ffmpegthumbnailer
 >extra gnome-screenshot
-#>extra gtkhash-nautilus
-#manjaro-gnome-vanilla
-#tlp
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra gnome-appfolders-manager
 >extra gnuchess                    # optional for gnome-chess to play against computer
@@ -245,14 +183,12 @@ dmidecode
 mesa-utils
 
 ## Documentation
-#>extra manjaro-documentation-en
 
 ## Settings packages
 manjaro-base-skel
 manjaro-gnome-settings
 >extra manjaro-gnome-extension-settings
 >extra lighter-gnome
-#manjaro-browser-settings
 
 ## Xorg Input Drivers
 >extra manjaro-input
@@ -266,13 +202,11 @@ xorg-xinit
 
 ## Matti's corner
 >extra pacui
-# manjaro-ranger-settings          # dependency atool only in AUR
 >extra bmenu
 
 ## OEM
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-gnome-settings
-#starlabs-tweaks
 coreboot-configurator
 flatpak

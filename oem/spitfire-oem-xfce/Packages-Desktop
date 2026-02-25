@@ -46,7 +46,6 @@ udiskie
 udisks2
 
 ## AUR Support/Development
-# Missing base-devel packages
 autoconf
 automake
 binutils
@@ -60,19 +59,15 @@ make
 patch
 pkgconf
 >multilib lib32-flex
-# Extra packages for AUR support
 >extra git
 >extra patchutils
 >extra subversion
 >extra yay
-#>extra manjaro-aur-support
 
 ## Fonts
 ttf-dejavu
 cantarell-fonts
 noto-fonts             # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
-# >extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra ttf-inconsolata
@@ -84,7 +79,6 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-#pamac
 yay
 flatpak
 
@@ -147,12 +141,10 @@ poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 file-roller
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 >extra xfce4-dict
 >extra xfce4-diskperf-plugin
 >extra xfce4-fsguard-plugin
@@ -175,7 +167,6 @@ xfce4-taskmanager
 >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin-gtk3
 xfce4-xkb-plugin
-#xfce4-pulseaudio-plugin
 pavucontrol
 zensu
 
@@ -196,7 +187,6 @@ xcursor-vanilla-dmz-aa
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
-# >extra flashplugin
 >extra galculator
 gcolor3
 >extra gimp
@@ -208,9 +198,7 @@ htop
 okular
 inxi
 >extra libreoffice-still
-#ms-office-online
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic epiphany
@@ -218,7 +206,6 @@ manjaro-settings-manager-notifier
 mousepad
 mugshot
 >basic parole # media player
-#>extra pidgin
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
@@ -230,7 +217,6 @@ screenfetch
 xreader
 >extra yelp
 
-# Optional dependencies engrampa
 7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
@@ -274,9 +260,7 @@ polkit-gnome
 ## Misc
 
 lm_sensors
-#thermald
 tlpui
-#x86_energy_perf_policy
 ethtool
 smartmontools
 stationx-driver

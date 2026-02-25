@@ -46,7 +46,6 @@ udiskie
 udisks2
 
 ## AUR Support/Development
-# Missing base-devel packages
 autoconf
 automake
 binutils
@@ -60,16 +59,12 @@ make
 patch
 pkgconf
 >multilib lib32-flex
-# Extra packages for AUR support
 >extra git
 >extra patchutils
 >extra subversion
 
 ## Fonts
 cantarell-fonts
-# noto-fonts             # default font
-# noto-fonts-cjk         # big package, ~76 mb compressed
-# >extra noto-fonts-emoji
 terminus-font
 ttf-bitstream-vera       # xfce4-terminal default Monospace
 ttf-dejavu
@@ -82,7 +77,6 @@ ttf-dejavu
 >extra steam-manjaro
 
 ## Package management
-#pamac
 flatpak
 yay
 
@@ -145,12 +139,10 @@ poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 file-roller
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 >extra xfce4-dict
 >extra xfce4-diskperf-plugin
 >extra xfce4-fsguard-plugin
@@ -190,7 +182,6 @@ xcursor-vanilla-dmz-aa
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
-# >extra flashplugin
 >extra galculator
 gcolor3
 >extra gimp
@@ -202,9 +193,7 @@ htop
 okular
 inxi
 >extra libreoffice-still
-#ms-office-online
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic epiphany
@@ -212,7 +201,6 @@ manjaro-settings-manager-notifier
 mousepad
 mugshot
 >basic parole # media player
-#>extra pidgin
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
@@ -223,16 +211,13 @@ screenfetch
 >extra xfburn
 >extra yelp
 
-# Optional dependencies engrampa
 7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
-#>extra manjaro-xfce-gtk3-settings
 >basic manjaro-xfce-settings
 manjaro-browser-settings
 

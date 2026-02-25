@@ -62,7 +62,6 @@ make
 manjaro-alsa
 manjaro-browser-settings
 manjaro-cinnamon-settings
-#>extra manjaro-documentation-en
 manjaro-hello
 
 >extra manjaro-printer
@@ -99,13 +98,11 @@ papirus-maia-icon-theme
 patch
 >extra patchutils
 pavucontrol
-#>extra pidgin-libnotify
 >extra pix
 pkgconf
 >extra poppler-data
 >extra powertop
 >extra pragha
-#>extra pulseaudio-bluetooth
 pipewire
 pipewire-pulse
 wireplumber

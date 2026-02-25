@@ -1,18 +1,12 @@
 calamares
 feh
-#linux60-t2-broadcom-wl
 
-#linux60-t2-r8168
-#linux60-t2-rt3562sta
-#linux60-t2-virtualbox-guest-modules
 
 manjaro-live-skel
 mkinitcpio-nfs-utils
 nbd
 network-manager-applet
 systemd
-#>systemd systemd-sysusers
-#>systemd systemd-tmpfiles
 networkmanager
 sddm
 xf86-input-libinput
@@ -31,9 +25,7 @@ virtualbox-guest-utils
 xcursor-breeze
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 >systemd xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-vmmouse
 xf86-input-void
 xf86-video-amdgpu

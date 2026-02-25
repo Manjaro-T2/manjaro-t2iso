@@ -1,9 +1,5 @@
 calamares
-#linux60-t2-bbswitch
-#linux60-t2-broadcom-wl
 manjaro-tools-base-git
-#linux60-t2-r8168
-#linux60-t2-rt3562sta
 manjaro-live-skel
 mkinitcpio-nfs-utils
 >multilib lib32-libxvmc
@@ -15,7 +11,6 @@ primus
 squashfs-tools
 bumblebee
 manjaro-live-systemd
-#manjaro-architect
 xf86-input-vmmouse
 xf86-video-amdgpu
 xf86-video-ati

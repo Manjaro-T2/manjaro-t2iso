@@ -8,9 +8,6 @@ gthumb
 evince
 >basic epiphany
 >extra firefox
-#gdm
-#manjaro-gdm-check #this check if nvidia closed drivers are installed and disable wayland session
-#manjaro-gdm-theme #branding theme for GDM: 18.0
 gedit
 gtksourceview-pkgbuild #highlight for PKGBUILD
 manjaro-gnome-vanilla
@@ -21,7 +18,6 @@ gnome-desktop
 gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
-#fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
 gnome-screenshot
@@ -42,7 +38,6 @@ lightdm
 lightdm-slick-greeter
 manjaro-slick-greeter-theme-glassfield
 gnome-screensaver #if use lightdm we need a screensaver
-#gnome-initial-setup
 >extra gnome-calendar
 >extra bijiben
 >extra gnome-characters
@@ -68,7 +63,6 @@ gvfs-smb
 inxi
 imagewriter
 
-#cli tool#
 mc
 
 ########
@@ -80,12 +74,10 @@ illyria-wallpaper
 manjaro-browser-settings
 manjaro-settings-manager-notifier
 manjaro-gnome-assets
-#grub-theme-manjaro #grub theme for installed S.O.
 manjaro-grub-theme-glassfield
 
 
 manjaro-hello
-#manjaro-application-utility
 mesa-demos
 mousetweaks
 >multilib lib32-mesa-demos
@@ -101,7 +93,6 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-#pamac
 flatpak
 polkit-gnome
 powertop
@@ -120,7 +111,6 @@ ntp
 openssh
 terminus-font
 totem
-#tracker
 
 ttf-bitstream-vera
 ttf-dejavu
@@ -142,9 +132,7 @@ xorg-xinit
 >extra xf86-input-wacom #support for tablet and pen display ( wacom ecc. )
 yelp
 
-#ms-office-online
 
-#extra depends for file-roller
 >extra gnome-getting-started-docs
 >extra 7zip
 >extra unrar
@@ -158,33 +146,15 @@ yelp
 >extra telepathy-accounts-signon
 >extra uget
 >extra transmission-gtk
-#>extra brasero
 >extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 >extra libdvdcss
-#>extra steam-manjaro
 >extra manjaro-printer
 >extra ffmpegthumbnailer
 >extra timeshift
-#>extra kernel-alive
 >extra gnome-shell-extension-gsconnect
 
-#AUR complete support ( base devel + yay )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
-#>extra yay
-#manjaro-aur-support #introduce for testing in community
 
 ## OEM
 calamares-oem-modules

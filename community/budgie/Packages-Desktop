@@ -54,8 +54,6 @@ inxi
 imagewriter
 kvantum-theme-matcha
 mc # Midnight Commander
-#pacui
-#mhwd-tui
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
@@ -63,7 +61,6 @@ manjaro-browser-settings
 
 manjaro-settings-manager-notifier
 manjaro-hello
-#manjaro-application-utility
 >extra snapd
 mesa-demos
 mobile-broadband-provider-info
@@ -82,8 +79,6 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-#pamac-gtk
-#pamac-snap-plugin
 polkit-gnome
 powertop
 pipewire
@@ -101,7 +96,6 @@ ntp
 openssh
 terminus-font
 totem
-#tracker
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -119,7 +113,6 @@ xorg-twm
 xorg-xinit
 yelp
 
-#extra depends for file-roller
 >extra 7zip
 >extra unrar
 >extra unace
@@ -127,31 +120,16 @@ yelp
 >extra onlyoffice-desktopeditors
 >extra thunderbird
 >extra lollypop
-#>extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra brasero
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 timeshift
-#>extra kernel-alive
 >extra libdvdcss
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
-#AUR complete support ( base devel )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
 
 yay
 flatpak

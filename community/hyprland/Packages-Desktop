@@ -1,8 +1,6 @@
-# Manjaro Hyprland
 
 ## Base
 
-#manjaro-hyprland/manjaro-hyprland-settings
 
 ## Hyprland Extras
 hyprland
@@ -16,14 +14,10 @@ networkmanager-dmenu
 
 
 swaybg # background switcher
-#>extra flashfocus # nicer flashing on focus change
 hyprlock # swaylock with nicer effects
 >extra wlsunset # time & place based light temperature
 >extra kanshi # automatically load matching output profiles
 >extra autotiling-rs # automated tiling
-#>extra sworkstyle # dynamic workspace icons in waybar
-#>extra swaycwd # determines the cwd of a sway container
-#>extra zeit # command line time tracker
 
 ## Wayland support
 
@@ -55,11 +49,9 @@ manjaro-browser-settings
 qt5ct
 qt6ct
 kvantum
-#gtk3-nocsd
 
 ## File systems access
 
-#pcmanfm-gtk3
 gvfs
 >extra gvfs-mtp
 >extra file-roller
@@ -93,10 +85,6 @@ dhclient
 ## Package Management
 
 yay
-#>extra manjaro-aur-support
-#pamac-gtk
-#>extra appimagelauncher
-#>extra web-installer-url-handler
 
 ## Utils
 
@@ -120,7 +108,6 @@ wl-clipboard # wayland clipboard application
 cliphist # clipboard history application
 
 ## Misc
-#manjaro-hotfixes
 >basic squashfs-tools
 nwg-dock-hyprland
 flatpak

@@ -1,4 +1,3 @@
-#>i686 archlinux32-keyring
 >manjaro manjaro-release
 acpi
 acpid
@@ -39,8 +38,6 @@ intel-ucode
 iproute2
 iptables
 iputils
-#ipw2100-fw
-#ipw2200-fw
 jfsutils
 linux612-t2
 less
@@ -61,7 +58,6 @@ lsb-release
 lvm2
 man-db
 man-pages
-#manjaro-firmware
 manjaro-system
 mdadm
 memtest86+

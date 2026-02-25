@@ -44,9 +44,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -63,25 +61,10 @@ terminus-font
 >extra steam-native-runtime
 
 ## Package management
-#>extra libappimage
-#pamac-gtk3
-#pamac-tray-icon-plasma
-#pamac-cli
 yay
-#>extra apparmor
-#>extra snapd
-#>extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
-#discover-snap
-#discover
 packagekit
 >extra fwupd 
-#octopi
-#octopi
 #
-#octopi-notifier-frameworks
-#pamac-qt
 ##manjaro-application-utility
 
 ## Printing
@@ -123,7 +106,6 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-#plasma-wayland-session # drop wayland support for now
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -142,7 +124,6 @@ illyria-wallpaper
 
 ## KDE Applications
 ark
-#>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
@@ -152,15 +133,10 @@ kcalc
 kfind
 kdeconnect
 okular
-#>extra >x86_64 kget
-#>extra >x86_64 libktorrent
-#>extra >i686 kget
 kdenetwork-filesharing
-#>extra kdenlive
 khelpcenter
 
 kio-extras
-#>extra kleopatra
 konsole
 ksystemlog
 kwalletmanager
@@ -175,8 +151,6 @@ spectacle
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
-#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -194,12 +168,6 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#>extra cdrtools         # for creation of DVD ISO images
-#>extra dvdauthor        # for creation of DVD
-#>extra dvgrab           # for firewire capture
-#>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
@@ -210,17 +178,12 @@ dmidecode # for inxi -m output
 firefox
 htop
 inxi
-#>extra krita
-#ms-office-online
 >extra onlyoffice-desktopeditors
-#>extra freeoffice
 >extra libreoffice-still
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
-#>extra qbittorrent
 fastfetch
 >extra thunderbird
 >extra vlc
@@ -258,17 +221,14 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xorg-mkfontscale
-#linux60-t2-nvidia
 nvidia-prime
 xf86-video-amdgpu
 optimus-manager-plasma
-#linux60-t2-acpi_call
 
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
 >extra timeshift
-#>extra kernel-alive
 
 ## Misc
 
@@ -278,7 +238,6 @@ xdg-utils
 calamares
 calamares-oem-modules
 calamares-oem-kde-settings
-#slimbookamdcontroller # redundant for titan as it has a dedicated performance button
 slimbook-qc71-dkms
 slimbook-rgb-keyboard
 slimbook_service

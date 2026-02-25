@@ -1,4 +1,3 @@
-# Base
 bash
 bzip2
 coreutils
@@ -26,7 +25,6 @@ tar
 util-linux
 xz
 
-# Manjaro
 acpi
 acpid
 amd-ucode
@@ -58,7 +56,6 @@ less
 logrotate
 lvm2
 man-db
-#manjaro-firmware
 manjaro-release
 manjaro-system
 manjaro-zsh-config
@@ -92,6 +89,5 @@ wireless-regdb
 iwd
 xfsprogs
 
-# t2linux
 apple-bcm-firmware
 apple-t2-audio-config

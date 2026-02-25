@@ -52,12 +52,10 @@ udisks2
 ## Fonts
 ttf-dejavu
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
-# >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -69,12 +67,6 @@ terminus-font
 
 ## Package management
 >extra apparmor
-#>extra gnome-software-snap
-#pamac-gtk
-#>extra snapd
-#>extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
 yay
 ## Printing
 >extra manjaro-printer
@@ -114,12 +106,10 @@ menulibre
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 >extra xfce4-dict
 >extra xfce4-diskperf-plugin
 >extra xfce4-fsguard-plugin
@@ -142,7 +132,6 @@ xfce4-taskmanager
 >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-#xfce4-pulseaudio-plugin
 pavucontrol
 
 ## Themes
@@ -160,7 +149,6 @@ xcursor-vanilla-dmz-aa
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
-# >extra flashplugin
 >extra galculator
 gcolor3
 >extra gimp
@@ -172,10 +160,7 @@ htop
 evince
 inxi
 >extra libreoffice-still
-#>extra microsoft-office-online-jak
-#>extra freeoffice
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >basic epiphany
@@ -183,18 +168,15 @@ manjaro-settings-manager-notifier
 mousepad
 mugshot
 >basic parole # media player
-#>extra pidgin
 powertop
 screenfetch
 >extra poppler-data  # CKJ support for pdf
-#>basic sylpheed # mail client
 >extra thunderbird
 >extra vlc
 >extra viewnior
 >extra xfburn
 >extra yelp
 
-# Optional dependencies engrampa
 7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
@@ -203,8 +185,6 @@ unrar  # RAR archive support
 
 
 ## Settings packages
-#>extra manjaro-xfce-gtk3-settings
-#>basic manjaro-xfce-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -240,7 +220,6 @@ zensu
 >extra timeshift
 
 ## Misc
-#gtkhash-thunar
 
 >basic squashfs-tools
 xiccd # enable color profile settings
@@ -249,7 +228,6 @@ xiccd # enable color profile settings
 calamares
 calamares-oem-modules
 calamares-oem-starlabs-xfce-settings
-#starlabs-tweaks
 coreboot-configurator
 flatpak
 gnome-software

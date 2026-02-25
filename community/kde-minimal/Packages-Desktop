@@ -17,13 +17,10 @@ konsole
 >extra plasma-systemmonitor
 >extra xdg-user-dirs
 >extra ark
-# optional dependencies of ark:
 >extra 7zip
 >extra unarchiver
 ## package manager
 >extra octopi
-#>extra octopi-notifier-frameworks
-# optional dependencies of octopi:
 >extra
 >extra pacmanlogviewer
 

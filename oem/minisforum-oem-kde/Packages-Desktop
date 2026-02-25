@@ -58,9 +58,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as adwaita-icon-theme dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -78,38 +76,19 @@ terminus-font
 
 ## Package management
 >extra libappimage
-#pamac-gtk
-#pamac-tray-icon-plasma
-#pamac-cli
 yay
 >extra apparmor
 >extra snapd
 >extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
-#discover-snap
-#discover
 packagekit
 >extra fwupd 
-#octopi
-#octopi
 #
-#octopi-notifier-frameworks
-#pamac-qt
-#manjaro-application-utility
 
 ## Printing
-#>extra manjaro-printer
-#>extra gtk
 
 ## Optional dependencies for hplip
-#>extra python-pillow
-#>extra python-pip
-#>extra python-pyqt5
-#>extra python-reportlab
 
 ## Optional dependencies for print-manager
-#>extra system-config-printer  # auto-detect the printer driver
 
 ## Display manager
 sddm
@@ -152,11 +131,9 @@ breeze-gtk
 
 ## KDE Applications
 ark
-#>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -167,18 +144,14 @@ okular
 >extra >x86_64 libktorrent
 >extra >i686 kget
 kdenetwork-filesharing
-#>extra kdenlive
 khelpcenter
 
 kio-extras
-#>extra kleopatra
 konsole
 ksystemlog
 kwalletmanager
 gwenview
 partitionmanager
-#>extra print-manager
-#>extra skanlite
 spectacle
 
 ## Optional dependencies for ark
@@ -186,8 +159,6 @@ spectacle
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
-#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -199,12 +170,6 @@ kimageformats     # support for dds, xcf, exr, psd, and more image formats
 qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
-#>extra cdparanoia    # for cd ripping support
-#>extra cdrdao        # for disk-at-once (DAO) mode support
-#>extra dvd+rw-tools  # for dvd burning support
-#>extra emovix        # for bootable multimedia cd/dvd support
-#>extra transcode     # for advanced mpeg conversion support
-#>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -213,12 +178,6 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#>extra cdrtools         # for creation of DVD ISO images
-#>extra dvdauthor        # for creation of DVD
-#>extra dvgrab           # for firewire capture
-#>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
@@ -231,13 +190,8 @@ element-desktop
 firefox
 htop
 inxi
-#>extra krita
-#ms-office-online
-#>extra freeoffice
 >extra libreoffice-fresh
-#>extra onlyoffice-desktopeditors
 manjaro-hello
-#manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
@@ -245,11 +199,9 @@ powertop
 screenfetch
 skype-web-jak
 telegram-desktop
-#>extra thunderbird
 >extra vlc
 vivaldi
 vivaldi-ffmpeg-codecs
-#yakuake
 
 ## Paid Applications
 crossover-extras
@@ -259,8 +211,6 @@ crossover-extras
 >extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
 
 ## Documentation
 
@@ -306,7 +256,6 @@ perl-file-mimeinfo
 xdg-utils
 zensu
 >extra timeshift
-#>extra kernel-alive
 gnome-firmware
 
 ## Misc

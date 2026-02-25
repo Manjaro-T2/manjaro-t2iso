@@ -28,7 +28,6 @@ fakeroot
 flex
 >extra gcc
 gcolor3
-#gconf
 >extra gimp
 >extra git
 zensu
@@ -98,7 +97,6 @@ openresolv
 openssh
 7zip
 firefox
-#pamac
 yay
 patch
 patchutils

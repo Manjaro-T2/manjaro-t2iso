@@ -10,14 +10,12 @@ binutils
 bison
 >extra blueman
 >extra celluloid
-#cinnamon-panel-chooser
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
 >extra dconf-editor
 >extra deluge
 dmidecode
-#>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
 firefox
@@ -47,7 +45,6 @@ grub-theme-manjaro
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
-#gtkhash-nemo
 >extra gufw
 gvfs-afc
 gvfs-gphoto2
@@ -69,7 +66,6 @@ lightdm-slick-greeter
 m4
 make
 manjaro-alsa
-#manjaro-application-utility
 manjaro-browser-settings
 manjaro-cinnamon-settings
 manjaro-hello
@@ -82,10 +78,8 @@ manjaro-settings-manager-notifier
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
-#>extra microsoft-office-web-jak
 >extra mugshot
 >multilib lib32-mesa-demos
-# >extra nemo-bulk-rename
 >extra nemo-fileroller
 >extra nemo
 >extra nemo-python
@@ -108,13 +102,11 @@ papirus-maia-icon-theme
 patch
 >extra patchutils
 pavucontrol
-#>extra pidgin-libnotify
 >extra pix
 pkgconf
 >extra poppler-data
 >extra popsicle
 >extra powertop
-#>extra pragha
 pipewire
 pipewire-pulse
 wireplumber
@@ -150,7 +142,6 @@ xorg-twm
 >extra vivaldi
 >extra vivaldi-ffmpeg-codecs
 xorg-xinit
-#>extra xplayer
 >extra xreader
 >extra xviewer-plugins
 xorg-server
