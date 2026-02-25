@@ -252,7 +252,6 @@ xorg-xkill
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-polkit-gnome
 
 ## Misc
 
@@ -264,3 +263,4 @@ timeshift
 ## OEM
 calamares-oem-modules
 
+gnome-software

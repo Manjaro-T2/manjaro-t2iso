@@ -20,14 +20,10 @@ konsole
 # optional dependencies of ark:
 >extra 7zip
 >extra unarchiver
-# wifi setup for systemd-networkd (recommended reading: https://wiki.archlinux.org/index.php/Systemd-networkd#Wireless_adapter  and  https://wiki.archlinux.org/index.php/WPA_supplicant):
-#>extra wpa_supplicant_gui
-
 ## package manager
 >extra octopi
 #>extra octopi-notifier-frameworks
 # optional dependencies of octopi:
->extra octopi
 >extra
 >extra pacmanlogviewer
 
@@ -38,5 +34,7 @@ konsole
 
 ## manjaro settings manager
 >extra manjaro-settings-manager
->extra manjaro-settings-manager
 >extra manjaro-settings-manager-knotifier
+flatpak
+discover
+packagekit

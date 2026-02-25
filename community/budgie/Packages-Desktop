@@ -19,16 +19,12 @@ wallpapers-2018
 manjaro-icons
 matcha-gtk-theme
 libayatana-appindicator
-baobab
-dconf-editor
-weechat
 evince
 gnome-calculator
 gnome-control-center
 gnome-calendar
 gnome-disk-utility
 gnome-font-viewer
-adwaita-icon-theme
 gnome-keyring
 gnome-settings-daemon
 gnome-system-monitor
@@ -44,13 +40,11 @@ sushi
 gedit
 firefox
 gparted
-grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-gucharmap
 gufw
 gvfs-afc
 gvfs-gphoto2
@@ -74,7 +68,6 @@ manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
-mousetweaks
 >multilib lib32-mesa-demos
 mutter
 nautilus
@@ -98,7 +91,6 @@ pipewire-pulse
 wireplumber
 bluez
 bluez-utils
-sushi
 xdg-user-dirs
 xorg-server
 alsa-utils
@@ -161,3 +153,6 @@ timeshift
 #>extra patch
 #>extra subversion
 
+yay
+flatpak
+gnome-software

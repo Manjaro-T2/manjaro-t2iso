@@ -271,3 +271,4 @@ polkit-gnome
 ## OEM
 calamares-oem-modules
 calamares-oem-bldbk-xfce-settings
+gnome-software

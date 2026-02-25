@@ -36,3 +36,6 @@ xf86-input-libinput
 xf86-input-void
 xorg-twm
 xorg-xinit
+yay
+flatpak
+gnome-software

@@ -94,7 +94,6 @@ vim
 wget
 which
 wireless-regdb
-t2manjaro/wpa_supplicant
 iwd
 xfsprogs
 zsh

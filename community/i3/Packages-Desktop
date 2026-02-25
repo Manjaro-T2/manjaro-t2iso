@@ -67,7 +67,7 @@ make
 #>extra manjaro-application-utility
 manjaro-browser-settings
 >extra manjaro-hello
-#manjaro-i3-settings
+manjaro-i3-settings
 >extra manjaro-printer
 manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
@@ -79,7 +79,6 @@ mobile-broadband-provider-info
 modemmanager
 morc_menu
 mousepad
->multilib lib32-flex
 >multilib lib32-mesa-utils
 ncdu
 netctl
@@ -123,7 +122,6 @@ upower
 vim
 >extra vibrancy-icons-teal
 viewnior
-vim
 #>extra vlc
 volumeicon
 w3m
@@ -149,3 +147,5 @@ xterm
 xdg-user-dirs
 xorg-server
 zensu
+flatpak
+gnome-software

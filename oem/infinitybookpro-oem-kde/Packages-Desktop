@@ -25,8 +25,6 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 pipewire
@@ -143,7 +141,6 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-desktop
 plasma-workspace
 plasma-workspace-wallpapers
 powerdevil
@@ -261,7 +258,6 @@ manjaro-settings-manager-knotifier
 powertop
 qbittorrent
 screenfetch
-plasma-systemmonitor
 thunderbird
 vlc
 yakuake
@@ -321,10 +317,12 @@ tlpui
 linux612-t2-headers
 
 ## Flatpak support
-flatpak
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
 ## OEM
 calamares-oem-modules
 calamares-oem-infbkpro-kde-settings
+yay
+discover
+packagekit

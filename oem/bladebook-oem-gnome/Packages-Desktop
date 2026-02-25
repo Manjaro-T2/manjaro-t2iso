@@ -33,7 +33,6 @@ gnome-shell-extension-manjaro-update
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-adwaita-icon-theme
 gnome-tweak-tool
 gnome-user-docs
 gnome-user-share
@@ -130,7 +129,6 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 usb_modeswitch
-polkit-gnome
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
@@ -191,3 +189,5 @@ yelp
 ## OEM
 calamares-oem-modules
 calamares-oem-bldbk-gnome-settings
+yay
+gnome-software

@@ -251,3 +251,5 @@ calamares-oem-modules
 calamares-oem-starlabs-xfce-settings
 #starlabs-tweaks
 coreboot-configurator
+flatpak
+gnome-software

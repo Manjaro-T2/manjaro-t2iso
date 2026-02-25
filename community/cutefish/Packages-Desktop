@@ -67,11 +67,6 @@ pamixer
 paprefs
 pavucontrol-qt
 playerctl
-pipewire
-pipewire-pulse
-wireplumber
-bluez
-bluez-utils
 
 
 ## edition theming and settings
@@ -162,3 +157,5 @@ xorg-xinput
 xorg-xkill
 xorg-xprop
 xsettingsd
+flatpak
+gnome-software

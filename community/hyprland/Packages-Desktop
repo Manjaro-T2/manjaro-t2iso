@@ -123,3 +123,7 @@ cliphist # clipboard history application
 #manjaro-hotfixes
 >basic squashfs-tools
 nwg-dock-hyprland
+flatpak
+gnome-software
+
+>extra manjaro-hello

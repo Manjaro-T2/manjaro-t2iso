@@ -82,7 +82,6 @@ moc
 modemmanager
 morc_menu
 mousepad
->multilib lib32-flex
 >multilib lib32-mesa-demos
 ncdu
 netctl
@@ -129,7 +128,6 @@ upower
 vim
 >extra vibrancy-icons-teal
 viewnior
-vim
 >extra vlc
 volumeicon
 w3m
@@ -138,7 +136,6 @@ wmutils
 xautolock
 >extra xcursor-chameleon-pearl
 >extra xcursor-maia
-polkit-gnome
 xdg-utils
 xdotool
 xf86-input-elographics
@@ -155,3 +152,5 @@ xorg-xprop
 xterm
 xdg-user-dirs
 xorg-server
+flatpak
+gnome-software

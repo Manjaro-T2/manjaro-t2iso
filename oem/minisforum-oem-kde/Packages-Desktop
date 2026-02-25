@@ -29,8 +29,6 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 pipewire
@@ -138,7 +136,6 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-desktop
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -173,7 +170,6 @@ kdenetwork-filesharing
 #>extra kdenlive
 khelpcenter
 
-plasma-workspace # for "Open in Terminal" action
 kio-extras
 #>extra kleopatra
 konsole
@@ -244,11 +240,9 @@ manjaro-hello
 #manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-knotifier
-plasma-systemmonitor
 powertop
 >extra qbittorrent
 screenfetch
-plasma-systemmonitor
 skype-web-jak
 telegram-desktop
 #>extra thunderbird
@@ -327,3 +321,5 @@ gnome-firmware
 calamares
 calamares-oem-modules
 calamares-oem-kde-settings
+flatpak
+discover

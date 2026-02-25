@@ -222,7 +222,6 @@ gnome-tweaks
 
 ## GNOME Shell Extensions
 
-gnome-shell-extensions
 >extra gnome-shell-extension-appindicator
 >extra gnome-shell-extension-arc-menu
 >extra gnome-shell-extension-dash-to-dock
@@ -342,7 +341,7 @@ xorg-server                        # optional for libgdm
 #xorg-twm                          # antiquated; optional for xorg-xinit
 #xorg-xinit                        # not needed by anything
 pdftricks
-gnome-weather
-gnome-weather
 fastfetch
 chafa
+flatpak
+gnome-software

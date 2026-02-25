@@ -3,7 +3,7 @@ GRUB_TIMEOUT=10
 GRUB_TIMEOUT_STYLE=hidden
 GRUB_DISTRIBUTOR="Manjaro"
 GRUB_CMDLINE_LINUX_DEFAULT="acpi_osi= bootsplash.bootfile=bootsplash-themes/manjaro/bootsplash"
-GRUB_CMDLINE_LINUX=""
+GRUB_CMDLINE_LINUX="brcmfmac.feature_disable=0x82000"
 
 # If you want to enable the save default function, uncomment the following
 # line, and set GRUB_DEFAULT to saved.

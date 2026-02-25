@@ -44,7 +44,7 @@ adobe-source-han-sans-cn-fonts
 #>x86_64 >extra steam-manjaro
 
 ## Package management
-pamac-gtk
+#pamac-gtk
 #pamac-gnome-integration
 #>extra pamac-snap-plugin
 #>extra pamac-flatpak-plugin
@@ -275,3 +275,4 @@ calamares-oem-modules
 calamares-oem-starlabs-gnome-settings
 #starlabs-tweaks
 coreboot-configurator
+flatpak

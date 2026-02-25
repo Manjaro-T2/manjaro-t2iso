@@ -25,8 +25,6 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 
@@ -140,7 +138,6 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-systemmonitor
 
 plasma-workspace
 >extra plasma-workspace-wallpapers
@@ -253,7 +250,6 @@ manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
 screenfetch
-plasma-systemmonitor
 #>extra thunderbird
 vlc
 yakuake

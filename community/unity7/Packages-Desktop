@@ -155,3 +155,4 @@ xdg-utils
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
+flatpak

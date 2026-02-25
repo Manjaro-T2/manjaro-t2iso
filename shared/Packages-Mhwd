@@ -31,7 +31,6 @@ primus
 qemu-guest-agent
 bumblebee
 nvidia-prime
-spice-vdagent
 virtualbox-guest-utils
 vulkan-radeon
 >multilib lib32-vulkan-radeon

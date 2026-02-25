@@ -84,7 +84,7 @@ ttf-bitstream-vera       # xfce4-terminal default Monospace
 >extra steam-manjaro
 
 ## Package management
-pamac
+#pamac
 yay
 flatpak
 
@@ -134,7 +134,6 @@ xfwm4-gtk3
 
 ## XFCE Extras
 blueman
-bluez-utils
 ffmpegthumbnailer  # tumbler - for video thumbnails
 freetype2          # tumbler - for font thumbnails
 gnome-keyring      # fix wlan segfault
@@ -276,7 +275,6 @@ polkit-gnome
 
 lm_sensors
 #thermald
-powertop
 tlpui
 #x86_energy_perf_policy
 ethtool
@@ -289,3 +287,4 @@ sx-sf-hdparm-sdb-idle
 ## OEM
 calamares-oem-modules
 calamares-oem-sx-settings
+gnome-software

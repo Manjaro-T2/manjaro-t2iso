@@ -44,7 +44,6 @@ deepin-store
 >extra deepin-system-monitor
 deepin-turbo
 deepin-terminal
-deepin-turbo
 >extra deepin-voice-note
 deepin-wallpapers-manjaro
 deepin-wallpapers-temp-fix
@@ -147,3 +146,4 @@ xorg-xhost
 xorg-server
 >extra yay
 zensu
+flatpak

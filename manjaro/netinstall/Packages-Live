@@ -26,7 +26,6 @@ qt5ct
 sddm-breath-theme
 sddm-kcm
 >systemd manjaro-live-systemd
-networkmanager
 >systemd sddm
 virtualbox-guest-utils
 xcursor-breeze
