@@ -22,8 +22,6 @@ grub-btrfs
 >extra manjaro-alsa
 >extra manjaro-gstreamer
 >extra manjaro-modem
->extra
-
 ## Fonts
 ttf-dejavu
 ttf-droid

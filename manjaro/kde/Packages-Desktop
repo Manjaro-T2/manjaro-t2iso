@@ -219,7 +219,6 @@ xorg-mkfontscale
 perl-file-mimeinfo
 xdg-utils
 >extra timeshift
-kde-applications
 ## Misc
 
 >basic squashfs-tools

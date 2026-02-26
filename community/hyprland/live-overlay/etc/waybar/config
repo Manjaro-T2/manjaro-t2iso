@@ -7,7 +7,7 @@
 
 "modules-left": ["image#logo","custom/power","cpu","memory","temperature","disk"],
 "modules-center": ["hyprland/workspaces"],
-"modules-right":  ["tray","pulseaudio","hyprland/language","clock"],
+"modules-right":  ["tray","network","pulseaudio","hyprland/language","clock"],
 
 "image#logo": {
 	"path": "/home/fares/.config/waybar/Manjaro-logo.jpg",
@@ -46,6 +46,14 @@
 "tray": {
     "icon-size": 16,
     "spacing": 6
+},
+"network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  {ifname}",
+    "format-linked": "󰈀  {ifname} (no IP)",
+    "format-disconnected": "󰖪  Disconnected",
+    "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+    "on-click": "networkmanager_dmenu"
 },
 "clock": {
     "locale": "C", 
