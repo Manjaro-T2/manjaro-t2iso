@@ -282,7 +282,7 @@ bootsplash-systemd
 
 tlpui
 
-linux612-t2-headers
+linux618-t2-headers
 
 ## Flatpak support
 xdg-desktop-portal

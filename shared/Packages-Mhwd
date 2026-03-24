@@ -4,7 +4,7 @@
 
 ## Normal MHWD package list
 
-linux612-t2-headers
+linux618-t2-headers
 open-vm-tools
 libva-intel-driver
 mesa

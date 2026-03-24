@@ -1,0 +1,60 @@
+name: Kernel Package Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kernel-package-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-kernel-packages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Install pacman repo tooling
+        run: |
+          docker pull archlinux:base-devel
+
+      - name: Install repo-add wrapper
+        run: |
+          sudo tee /usr/local/bin/repo-add >/dev/null <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          docker run --rm \
+            -v "$PWD:/repo" \
+            -w /repo \
+            archlinux:base-devel \
+            bash -lc 'pacman -Sy --noconfirm pacman-contrib >/dev/null && repo-add "$@"' -- "$@"
+          EOF
+          sudo chmod +x /usr/local/bin/repo-add
+
+      - name: Sync latest kernel packages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/sync-kernel-packages.sh
+
+      - name: Commit synced packages
+        run: |
+          if git diff --quiet -- t2manjaro; then
+            echo "No package changes to commit."
+            exit 0
+          fi
+          git add -A t2manjaro
+          git commit -m "chore: sync latest kernel packages"
+          git push

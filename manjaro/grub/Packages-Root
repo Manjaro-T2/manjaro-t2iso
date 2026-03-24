@@ -7,7 +7,7 @@ filesystem
 gcc-libs
 glibc
 grub
-linux612-t2
+linux618-t2
 lsb-release
 >manjaro manjaro-release
 systemd-sysvcompat

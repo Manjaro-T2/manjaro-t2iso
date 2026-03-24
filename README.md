@@ -27,7 +27,7 @@ After the command finished, you can now unzip the ISO normally in File Explorer 
 ### macOS, Linux, and *nix systems:
 Open Terminal (Or Console on some Linux Systems) and do and type `cat`. Then open you open your file browser and drag the `.z01` file into the terminal.Then press the spacebar and then repeat for the `.zip` file. Then type `> manjaro .iso.zip`, and press Enter.
 ```bash
-cat manjaro-xfce-26.0-t2-260207-linux612-t2.iso.z01 manjaro-xfce-26.0-t2-260207-linux612-t2.iso.zip > manjaro.iso.zip
+cat manjaro-xfce-26.0-t2-260207-linux618-t2.iso.z01 manjaro-xfce-26.0-t2-260207-linux618-t2.iso.zip > manjaro.iso.zip
 ```
 Now unzip the file like normal and you you are ready to move on the next step.
 
@@ -58,9 +58,9 @@ Haha, got you. Unless you're a tech savvy guy, you'll have to read the documenta
 Assuming your drive is `/dev/sda` and your chosen OS is 26.0 T-2 XFCE,
 ```sh
 cd ~/Downloads
-cat manjaro-xfce-26.0-t2-260207-linux612-t2.iso.z01 manjaro-xfce-26.0-t2-260207-linux612-t2.iso.zip > manjaro.iso.zip # The split archive may differ
+cat manjaro-xfce-26.0-t2-260207-linux618-t2.iso.z01 manjaro-xfce-26.0-t2-260207-linux618-t2.iso.zip > manjaro.iso.zip # The split archive may differ
 unzip manjaro.iso.zip
-sudo dd if=manjaro-xfce-26.0-t2-260207-linux612-t2.iso of=/dev/sda bs=1M status=progress
+sudo dd if=manjaro-xfce-26.0-t2-260207-linux618-t2.iso of=/dev/sda bs=1M status=progress
 ```
 Don't remove `status=progress` unless you want to stare at a blank terminal.
 

@@ -1,0 +1,68 @@
+name: sync_kernel_repo
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_repo:
+        description: Source repository that publishes the kernel packages
+        required: false
+        type: string
+      source_asset_pattern:
+        description: Regex for source assets to pull into the pacman repo
+        required: false
+        type: string
+      target_repo:
+        description: Repository that hosts the pacman release assets
+        required: false
+        type: string
+      target_release_tag:
+        description: Release tag used as the pacman repo endpoint
+        required: false
+        type: string
+      target_repo_db_name:
+        description: Pacman repo database basename
+        required: false
+        type: string
+      target_asset_cleanup_pattern:
+        description: Regex for old target assets that should be replaced
+        required: false
+        type: string
+  schedule:
+    - cron: '0 3 * * 0'
+
+permissions:
+  contents: read
+
+jobs:
+  sync-kernel-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pacman repo tooling
+        run: |
+          docker pull archlinux:base-devel
+
+      - name: Install repo-add wrapper
+        run: |
+          sudo tee /usr/local/bin/repo-add >/dev/null <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          docker run --rm \
+            -v "$PWD:/repo" \
+            -w /repo \
+            archlinux:base-devel \
+            bash -lc 'pacman -Sy --noconfirm pacman-contrib >/dev/null && repo-add "$@"' -- "$@"
+          EOF
+          sudo chmod +x /usr/local/bin/repo-add
+
+      - name: Sync latest kernel packages into the release-backed pacman repo
+        env:
+          GH_TOKEN: ${{ secrets.T2MANJARO_TOKEN }}
+          SOURCE_REPO: ${{ inputs.source_repo != '' && inputs.source_repo || vars.KERNEL_SOURCE_REPO }}
+          SOURCE_ASSET_PATTERN: ${{ inputs.source_asset_pattern != '' && inputs.source_asset_pattern || vars.KERNEL_SOURCE_ASSET_PATTERN }}
+          TARGET_REPO: ${{ inputs.target_repo != '' && inputs.target_repo || vars.KERNEL_TARGET_REPO != '' && vars.KERNEL_TARGET_REPO || 'Manjaro-T2/t2manjaro' }}
+          TARGET_RELEASE_TAG: ${{ inputs.target_release_tag != '' && inputs.target_release_tag || vars.KERNEL_TARGET_RELEASE_TAG != '' && vars.KERNEL_TARGET_RELEASE_TAG || '2601' }}
+          TARGET_REPO_DB_NAME: ${{ inputs.target_repo_db_name != '' && inputs.target_repo_db_name || vars.KERNEL_TARGET_REPO_DB_NAME != '' && vars.KERNEL_TARGET_REPO_DB_NAME || 't2manjaro' }}
+          TARGET_ASSET_CLEANUP_PATTERN: ${{ inputs.target_asset_cleanup_pattern != '' && inputs.target_asset_cleanup_pattern || vars.KERNEL_TARGET_ASSET_CLEANUP_PATTERN }}
+        run: .github/scripts/sync-kernel-repo.sh

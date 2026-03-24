@@ -51,7 +51,7 @@ haveged
 inetutils
 intel-ucode
 jfsutils
-linux612-t2
+linux618-t2
 less
 logrotate
 lvm2

@@ -8,6 +8,7 @@ sddm
 
 ## plasma
 plasma-desktop
+plasma-nm
 dolphin
 konsole
 >extra kwrite
@@ -22,6 +23,9 @@ konsole
 ## package manager
 >extra octopi
 >extra pacmanlogviewer
+
+## network
+networkmanager
 
 ## AUR support
 >extra base-devel
