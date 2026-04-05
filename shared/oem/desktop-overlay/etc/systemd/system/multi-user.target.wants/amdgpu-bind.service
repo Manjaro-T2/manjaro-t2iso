@@ -1,1 +1,1 @@
-/etc/systemd/system/amdgpu-bind.service
+../amdgpu-bind.service
