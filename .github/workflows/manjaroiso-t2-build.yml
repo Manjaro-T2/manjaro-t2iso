@@ -3,21 +3,21 @@ on:
   workflow_dispatch:
   push:
    branches:
-      - senpai
+      - mainline
   schedule:
     - cron: '0 3 1 * *'
 
 permissions:
   contents: write
 
+concurrency:
+  group: iso-build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   prepare-release:
     runs-on: ubuntu-latest
     steps:
-      # cancel already running instances of the same action on the currently working on branch
-      - uses: styfle/cancel-workflow-action@0.9.0
-        with:
-          access_token: ${{ github.token }}
       - id: time
         uses: nanzm/get-time-action@v1.1
         with:
@@ -36,10 +36,6 @@ jobs:
         SCOPE: [full]
         ###################
     steps:
-      # cancel already running instances of the same action on the currently working on branch
-      - uses: styfle/cancel-workflow-action@0.9.0
-        with:
-          access_token: ${{ github.token }}
       - id: image-build
         uses: manjaro/manjaro-iso-action@main
         with:
@@ -61,3 +57,115 @@ jobs:
           echo ${{ github.token }} | gh auth login --with-token
           gh release delete ${{ needs.prepare-release.outputs.release_tag }} -y --repo ${{ github.repository }}
           git push --delete origin ${{ needs.prepare-release.outputs.release_tag }}
+
+  generate-release-metadata:
+    runs-on: ubuntu-latest
+    needs:
+      - prepare-release
+      - release
+    if: ${{ needs.release.result == 'success' }}
+    steps:
+      - name: Generate distro metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ needs.prepare-release.outputs.release_tag }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh release view "$RELEASE_TAG" --repo "$REPO" --json assets > release-assets.json
+          python3 <<'PY'
+          import json
+          import os
+          import re
+          import subprocess
+          import tempfile
+          from pathlib import Path
+
+          edition_names = {
+              "cinnamon": "Manjaro Cinnamon",
+              "gnome": "Manjaro GNOME",
+              "kde": "Manjaro KDE",
+              "i3": "Manjaro i3",
+              "xfce": "Manjaro XFCE",
+              "hyprland": "Manjaro Hyprland",
+          }
+
+          repo = os.environ["REPO"]
+          tag = os.environ["RELEASE_TAG"]
+
+          with open("release-assets.json", "r", encoding="utf-8") as handle:
+              assets = json.load(handle)["assets"]
+
+          grouped = {}
+          sha_asset_by_edition = {}
+
+          for asset in assets:
+              name = asset["name"]
+              url = f"https://github.com/{repo}/releases/download/{tag}/{name}"
+
+              iso_match = re.match(r"^manjaro-([a-z0-9-]+)-.*\.iso(?:\..+)?$", name)
+              if iso_match and ".sha" not in name.lower():
+                  edition = iso_match.group(1)
+                  grouped.setdefault(edition, []).append(url)
+                  continue
+
+              sha_match = re.match(r"^manjaro-([a-z0-9-]+)-.*(?:sha256|sha256sum)(?:\..*)?$", name, re.IGNORECASE)
+              if not sha_match:
+                  continue
+
+              edition = sha_match.group(1)
+              sha_asset_by_edition[edition] = name
+
+          sha_by_edition = {}
+          if sha_asset_by_edition:
+              with tempfile.TemporaryDirectory() as tmpdir:
+                  for edition, asset_name in sha_asset_by_edition.items():
+                      subprocess.run(
+                          [
+                              "gh",
+                              "release",
+                              "download",
+                              tag,
+                              "--repo",
+                              repo,
+                              "--pattern",
+                              asset_name,
+                              "--dir",
+                              tmpdir,
+                          ],
+                          check=True,
+                      )
+                      checksum_path = Path(tmpdir, asset_name)
+                      text = checksum_path.read_text(encoding="utf-8", errors="ignore")
+                      edition_pattern = re.compile(
+                          rf"([0-9a-fA-F]{{64}})\s+.*manjaro-{re.escape(edition)}-.*",
+                          re.IGNORECASE,
+                      )
+                      match = edition_pattern.search(text)
+                      if match is None:
+                          match = re.search(r"\b([0-9a-fA-F]{64})\b", text)
+                      if match is not None:
+                          sha_by_edition[edition] = match.group(1).lower()
+
+          metadata = {"all": []}
+          for edition in sorted(grouped):
+              entry = {
+                  "name": edition_names.get(edition, f"Manjaro {edition.title()}"),
+                  "iso": sorted(grouped[edition]),
+              }
+              if edition in sha_by_edition:
+                  entry["sha256"] = sha_by_edition[edition]
+              metadata["all"].append(entry)
+
+          with open("distro-metadata.json", "w", encoding="utf-8") as handle:
+              json.dump(metadata, handle, indent=2)
+              handle.write("\n")
+          PY
+
+      - name: Upload distro metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ needs.prepare-release.outputs.release_tag }}
+        run: |
+          gh release upload "$RELEASE_TAG" distro-metadata.json \
+            --repo "${{ github.repository }}" \
+            --clobber
