@@ -2,10 +2,8 @@ name: iso_build
 on:
   workflow_dispatch:
   push:
-   branches:
-      - mainline
-  schedule:
-    - cron: '0 3 1 * *'
+    branches:
+      - '**'
 
 permissions:
   contents: write
@@ -31,9 +29,9 @@ jobs:
     strategy:
       matrix:
         ##### EDIT ME #####      
-        EDITION: [cinnamon, gnome, kde, i3, xfce,hyprland]
-        BRANCH: [stable]
-        SCOPE: [full]
+        edition: [cinnamon, gnome, kde, i3, xfce, hyprland]
+        branch: [stable]
+        scope: [full]
         ###################
     steps:
       - id: image-build
