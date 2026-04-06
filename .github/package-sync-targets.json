@@ -1,0 +1,9 @@
+{
+  "targets": [
+    {
+      "name": "mainline",
+      "repo": "RishonDev/manjaro-kernel-t2",
+      "asset_pattern": "^linux618-t2(|-headers)-.*\\.pkg\\.tar\\.zst$"
+    }
+  ]
+}
