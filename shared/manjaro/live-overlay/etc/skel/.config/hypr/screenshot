@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+# ------------------------------------------
+# CLI Screenshot Tool
+# ------------------------------------------
+
+# --- Configuration ---
+SAVE_DIR="$HOME/Pictures/Screenshots"
+SAVE_FILENAME="screenshot_$(date +%d%m%Y_%H%M%S).jpg"
+SOUND=~/.config/hypr/ss.mp3
+
+# Generate path
+eval screenshot_folder="$SAVE_DIR"
+eval filename="$SAVE_FILENAME"
+path="$screenshot_folder/$filename"
+mkdir -p "$SAVE_DIR"
+chmod 644 $SOUND
+# Handle the screenshot
+take_screenshot() {
+  local mode=$1
+  case $mode in
+  "fullscreen")
+    grim "$path"
+    paplay $SOUND
+    ;;
+  "area")
+    # slurp allows UI selection
+    GEOM=$(slurp)
+    [ -z "$GEOM" ] && exit 0 # Handle ESC/Cancel
+    grim -g "$GEOM" "$path"
+    paplay $SOUND
+    ;;
+  "window")
+    GEOM=$(hyprctl activewindow -j | jq -r '"\(.at[0]),\(.at[1]) \(.size[0])x\(.size[1])"')
+    grim -g "$GEOM" "$path"
+    paplay $SOUND
+    ;;
+  esac
+
+  # Finalize and Notify
+  if [ -f "$path" ]; then
+    wl-copy <"$path"
+    notify-send "Screenshot saved." "Screenshot has been saved to $path"
+  else
+    notify-send "Screenshot failed" "Please try again."
+  fi
+}
+
+# --- Main Logic ---
+# 1. Fast Mode (Check for arguments)
+if [ "$#" -ge 1 ]; then
+  take_screenshot "$1"
+  exit 0
+fi

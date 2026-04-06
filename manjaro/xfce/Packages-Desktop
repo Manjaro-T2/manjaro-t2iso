@@ -29,10 +29,12 @@ gst-plugins-good
 gst-plugins-ugly
 libdvdcss
 >multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 
 ## Connect Packages
 android-tools
@@ -49,14 +51,11 @@ udisks2
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-adobe-source-sans-pro-fonts
+adobe-source-sans-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
-# >extra noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -65,14 +64,10 @@ terminus-font
 
 ## Package management
 >extra apparmor
-#>extra gnome-software-snap
-#pamac-gtk
-#>extra snapd
-#>extra snapd-glib
-#>extra pamac-snap-plugin
-#>extra pamac-flatpak-plugin
-yay
-paru
+gnome-software
+>extra snapd
+>extra snapd-glib
+
 ## Printing
 >extra manjaro-printer
 
@@ -111,12 +106,10 @@ menulibre
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
-# >extra xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
 >extra xfce4-dict
 >extra xfce4-diskperf-plugin
 >extra xfce4-fsguard-plugin
@@ -139,14 +132,13 @@ xfce4-taskmanager
 >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-xfce4-pulseaudio-plugin
 pavucontrol
 
 ## Themes
 >extra manjaro-wallpapers-18.0
 >extra wallpapers-2018
 >extra wallpapers-juhraya
-gnome-themes-standard
+adwaita-icon-theme
 grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
@@ -158,52 +150,42 @@ bash-completion
 dmidecode # optional dependency inxi
 engrampa
 >extra firefox
-# >extra flashplugin
 >extra galculator
 gcolor3
 >extra gimp
 gparted
 gufw
 >extra audacious
->extra hexchat
+>extra weechat
 htop
 inxi
-#>extra libreoffice-still
-#>extra microsoft-office-online-jak
-#>extra freeoffice
 >extra onlyoffice-desktopeditors
 manjaro-hello
-manjaro-application-utility
 manjaro-settings-manager
 manjaro-settings-manager-notifier
->basic midori
->extra mlocate
+>basic epiphany
+>extra plocate
 mousepad
 mugshot
 >basic parole # media player
->extra pidgin
 powertop
 screenfetch
 evince
 >extra poppler-data  # CKJ support for pdf
-#>basic sylpheed # mail client
 >extra thunderbird
 >extra vlc
 >extra viewnior
 >extra xfburn
 >extra yelp
 
-# Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
+7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+>basic manjaro-xfce-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
@@ -214,11 +196,13 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+>multilib lib32-mesa
+>multilib libva
+
+>multilib lib32-libva
 libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
+mesa
+libva
 mesa-demos
 >multilib lib32-mesa-demos
 numlockx
@@ -232,13 +216,12 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-#xdg-su
 >extra timeshift
-#>extra kernel-alive
 
 ## Misc
-gtkhash-thunar
-manjaro-hotfixes
+
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
+yay
+flatpak

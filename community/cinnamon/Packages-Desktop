@@ -10,22 +10,20 @@ binutils
 bison
 >extra blueman
 >extra celluloid
-#cinnamon-panel-chooser
 cinnamon-sounds
 cinnamon-translations
 >extra cinnamon-wallpapers
 >extra dconf-editor
 >extra deluge
 dmidecode
-#>extra etcher
 fakeroot
 >extra ffmpegthumbnailer
-#>extra firefox
+firefox
 flatpak
 flex
 gvfs-goa
 gvfs-google
->extra galculator
+>extra gnome-calculator
 >extra gcc
 >extra gcolor3
 >extra gimp
@@ -36,25 +34,24 @@ gnome-keyring
 >extra gnome-screenshot
 >extra gnome-system-monitor
 gnome-terminal
-gnome-themes-standard
+adwaita-icon-theme
 gnu-free-fonts
 >extra gparted
 >extra gprename
-grub-theme-manjaro-dev
+grub-theme-manjaro
 >extra gst-libav
 >extra gst-plugins-bad
 >extra gst-plugins-base
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra gstreamer
-gtkhash-nemo
 >extra gufw
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 htop
->extra hexchat
+>extra weechat
 icon-naming-utils
 inxi
 >extra jre8-openjdk
@@ -69,25 +66,22 @@ lightdm-slick-greeter
 m4
 make
 manjaro-alsa
-manjaro-application-utility
 manjaro-browser-settings
 manjaro-cinnamon-settings
 manjaro-hello
-manjaro-hotfixes
+
 >extra manjaro-printer
-manjaro-pulse
+
 manjaro-settings-manager-notifier
 >extra mesa-demos
->basic midori
+>basic epiphany
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
->extra microsoft-office-web-jak
 >extra mugshot
 >multilib lib32-mesa-demos
-# >extra nemo-bulk-rename
 >extra nemo-fileroller
->extra nemo-preview
+>extra nemo
 >extra nemo-python
 >extra nemo-share
 netctl
@@ -101,23 +95,24 @@ numlockx
 openresolv
 openssh
 >extra openvpn
->extra p7zip
-pamac
+>extra 7zip
+yay
 papirus-maia-icon-theme
 >extra parcellite
 patch
 >extra patchutils
 pavucontrol
->extra pidgin-libnotify
 >extra pix
-pkg-config
+pkgconf
 >extra poppler-data
 >extra popsicle
 >extra powertop
-#>extra pragha
->extra pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 python-ptyprocess
 screenfetch
 >extra snapd
@@ -134,8 +129,8 @@ ttf-dejavu
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra udiskie
-vi
->extra xcursor-chameleon-pearl-deepin
+vim
+>extra xcursor-themes
 xdg-user-dirs-gtk
 xdg-utils
 xed
@@ -147,7 +142,6 @@ xorg-twm
 >extra vivaldi
 >extra vivaldi-ffmpeg-codecs
 xorg-xinit
-#>extra xplayer
 >extra xreader
 >extra xviewer-plugins
 xorg-server
@@ -157,3 +151,7 @@ xorg-xkill
 >extra yay
 yelp
 zensu
+fastfetch
+chafa
+dconf
+gnome-software

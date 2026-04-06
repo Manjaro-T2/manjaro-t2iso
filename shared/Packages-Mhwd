@@ -4,31 +4,27 @@
 
 ## Normal MHWD package list
 
-#linux61-t2-r8168
-zfs-utils
-#linux61-t2-rt3562sta
-#linux61-t2-virtualbox-guest-modules
-linux612-t2-headers
-zfs-dkms
+linux618-t2-headers
+open-vm-tools
 libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
->multilib lib32-libva-vdpau-driver
+mesa
+libva
+>multilib lib32-libva
 libxaw
 libxpm
 libxvmc
-mesa-vdpau
->multilib lib32-mesa-vdpau
+gtkmm3
+spice-vdagent
+vulkan-mesa-layers
+vulkan-swrast
+vulkan-virtio
+vulkan-icd-loader
+>multilib lib32-mesa
 >multilib lib32-libxvmc
 >multilib lib32-primus
 opencl-mesa
-open-vm-tools
 primus
 qemu-guest-agent
-bumblebee
-nvidia-prime
-gtkmm3
-spice-vdagent
 virtualbox-guest-utils
 vulkan-radeon
 >multilib lib32-vulkan-radeon
@@ -41,4 +37,3 @@ xf86-video-fbdev
 xf86-video-intel
 xf86-video-sisusb
 xf86-video-vesa
-xf86-video-vmware

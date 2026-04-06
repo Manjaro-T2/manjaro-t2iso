@@ -1,0 +1,116 @@
+
+## Base
+
+
+## Hyprland Extras
+hyprland
+kitty
+rofi
+waybar
+wlogout
+grim
+slurp 
+networkmanager-dmenu
+
+
+swaybg # background switcher
+hyprlock # swaylock with nicer effects
+>extra wlsunset # time & place based light temperature
+>extra kanshi # automatically load matching output profiles
+>extra autotiling-rs # automated tiling
+
+## Wayland support
+
+xorg-xwayland # xorg-wayland bridge
+>extra nwg-displays # graphical display management like arandr
+qt5-wayland
+qt6-wayland
+gnome-keyring # unlock keyring on login
+polkit-kde-agent # polkit for visual superuser access
+xdg-desktop-portal-hyprland
+manjaro-pipewire
+
+## Btrfs
+grub-btrfs
+>extra timeshift-autosnap-manjaro
+
+## Greeter
+
+greetd
+greetd-tuigreet
+
+## Browser
+
+firefox
+manjaro-browser-settings
+
+## Themes
+
+qt5ct
+qt6ct
+kvantum
+
+## File systems access
+
+gvfs
+>extra gvfs-mtp
+>extra file-roller
+>extra 7zip
+
+## Sound, video and bluetooth
+
+pulsemixer
+bluez
+bluez-utils
+playerctl
+
+## Network
+
+avahi
+nss-mdns
+networkmanager
+>extra network-manager-applet
+dhclient
+
+## Multimedia
+
+>extra mplayer # multimedia player
+>extra ffmpeg
+>extra ffmpegthumbnailer
+>extra zathura
+>extra zathura-pdf-poppler
+>extra gnome-epub-thumbnailer
+>extra imv
+
+## Package Management
+
+yay
+
+## Utils
+
+apparmor
+xdg-user-dirs
+>extra manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+nautilus
+## Extra fonts
+
+>extra wqy-microhei
+
+## CLI tools
+
+curl
+jq
+zsh
+manjaro-zsh-config
+wget
+wl-clipboard # wayland clipboard application
+cliphist # clipboard history application
+
+## Misc
+>basic squashfs-tools
+nwg-dock-hyprland
+flatpak
+gnome-software
+
+>extra manjaro-hello

@@ -25,15 +25,15 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
 libdvdcss
 manjaro-alsa
-manjaro-pulse
-phonon-qt5-gstreamer
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+
 
 ## Connect Packages
 android-tools
@@ -50,7 +50,6 @@ udiskie
 udisks2
 
 ## AUR Support/Development
-# Missing base-devel packages
 autoconf
 automake
 binutils
@@ -62,16 +61,14 @@ libtool
 m4
 make
 patch
-pkg-config
+pkgconf
 >multilib lib32-flex
-# Extra packages for AUR support
 >extra git
 >extra patchutils
 >extra subversion
 
 ## Fonts
 ttf-dejavu
-# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -84,37 +81,20 @@ terminus-font
 ## Games
 
 ## Package management
-#appimagelauncher
-packagekit-qt5
+packagekit
 discover
 flatpak
 xdg-desktop-portal
 xdg-desktop-portal-kde
 fwupd
-#pamac-cli
-octopi
 yay
-paru
+octopi
 
 ## Printing
-#>extra cups
-#>extra cups-pdf
-#>extra cups-pk-helper
-#>extra ghostscript
-#>extra gsfonts
-#>extra gtk3-print-backends
-#>extra hplip
-#>extra splix
 
 ## Optional dependencies for hplip
-#>extra python-pillow
-#>extra python-pip
-#>extra python-pyqt5
-#>extra python-reportlab
 
 ## Optional dependencies for print-manager
-#>extra system-config-printer  # auto-detect the printer driver
-#>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
@@ -122,15 +102,15 @@ sddm-kcm
 
 ## Plasma5
 bluedevil
-kde-gtk-config
+kde-gtk3-config
 kdeplasma-addons
-kgamma5
+kgamma
 kinfocenter
 kmenuedit
 kscreen
 kscreenlocker
 ksshaskpass
-ksysguard
+plasma-systemmonitor
 kwallet-pam
 kwayland-integration
 kwin
@@ -140,8 +120,7 @@ milou
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-systemmonitor
-plasma-wayland-session
+
 plasma-workspace
 >extra plasma-workspace-wallpapers
 powerdevil
@@ -151,24 +130,16 @@ systemsettings
 breeze
 breeze-gtk
 breeze-icons
-gnome-themes-standard
-#gtk-theme-breath
+adwaita-icon-theme
 oxygen
 oxygen-icons
-#plasma5-themes-breath  # Default
-#sddm-breath-theme  # Default
 grub-theme-manjaro
-#illyria-wallpaper
-#>extra wallpapers-2018
-#>extra manjaro-wallpapers-18.0
 
 ## KDE Applications
 ark
-#>extra digikam
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
@@ -177,29 +148,23 @@ kdeconnect
 okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
->extra >i686 kdenetwork-kget
+>extra >i686 kget
 kdenetwork-filesharing
-#>extra kdenlive
 khelpcenter
 kio-extras
-#>extra kleopatra
 konsole
 konversation
 ksystemlog
 kwalletmanager
-#gwenview
 partitionmanager
-#>extra print-manager
 >extra skanlite
 spectacle
 
 ## Optional dependencies for ark
-p7zip  # 7Z format support
+7zip  # 7Z format support
 unarchiver  # RAR format support
 
 ## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
-#>extra hugin         # panorama tool
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -207,16 +172,8 @@ ffmpegthumbs              # video thumbnails
 ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
-#kimageformats     # support for dds, xcf, exr, psd, and more image formats
-#qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for k3b
-#>extra cdparanoia    # for cd ripping support
-#>extra cdrdao        # for disk-at-once (DAO) mode support
-#>extra dvd+rw-tools  # for dvd burning support
-#>extra emovix        # for bootable multimedia cd/dvd support
-#>extra transcode     # for advanced mpeg conversion support
-#>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -225,54 +182,31 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for kdenlive
-#>extra cdrtools         # for creation of DVD ISO images
-#>extra dvdauthor        # for creation of DVD
-#>extra dvgrab           # for firewire capture
-#>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
-#>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
-#>extra cantata
 dmidecode # for inxi -m output
 htop
-#imagewriter
 inxi
-#>extra krita
 >extra firefox
 >basic falkon
-#ms-office-online
-#>extra libreoffice-fresh
 >extra calligra
-#manjaro-hello
-manjaro-settings-manager-kcm
+manjaro-settings-manager
 manjaro-settings-manager-knotifier
 powertop
-#>extra qbittorrent
 screenfetch
-systemd-kcm
-#>extra thunderbird
 vlc
 yakuake
 
 ## Optional dependencis for cantata
-#>extra mpd       # playback
-#>extra perl-uri  # dynamic playlist
 
 ## Optional dependencies for libreoffice
-#>extra jre8-openjdk
-#>extra jdk8-openjdk
 
 ## Documentation
-#manjaro-documentation-en
 
 ## Settings packages
-#>extra manjaro-kde-settings
-#>basic manjaro-kde-minimal-settings
-#manjaro-browser-settings
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -282,11 +216,13 @@ xf86-input-void
 
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
+>multilib lib32-mesa
+>multilib libva
+
+>multilib lib32-libva
 libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
+mesa
+libva
 mesa-demos
 >multilib lib32-mesa-demos
 numlockx
@@ -302,4 +238,4 @@ xdg-utils
 zensu
 
 ## Misc
-manjaro-hotfixes
+

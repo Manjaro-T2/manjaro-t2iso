@@ -5,7 +5,7 @@
 alsa-firmware
 dmidecode
 inxi
-manjaro-hotfixes
+
 mesa-utils
 mobile-broadband-provider-info
 modemmanager
@@ -30,9 +30,10 @@ ttf-liberation
 xdg-utils
 xf86-input-elographics
 xf86-input-evdev
-#xf86-input-keyboard # deprecated
 xf86-input-libinput
-#xf86-input-mouse # deprecated
 xf86-input-void
 xorg-twm
 xorg-xinit
+yay
+flatpak
+gnome-software

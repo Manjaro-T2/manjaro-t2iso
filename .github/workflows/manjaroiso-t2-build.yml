@@ -1,15 +1,18 @@
 name: iso_build
 on:
   workflow_dispatch:
-  # remove if you don't want to build on a schedule
-  # remove if you don't want to build when commits are pushed to you main/master branch
   push:
-    branches:
+   branches:
       - senpai
+  schedule:
+    - cron: '0 3 1 * *'
+
+permissions:
+  contents: write
 
 jobs:
   prepare-release:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       # cancel already running instances of the same action on the currently working on branch
       - uses: styfle/cancel-workflow-action@0.9.0
@@ -23,12 +26,12 @@ jobs:
       # generate a common tag to be used in all elements of the matrix strategy
       release_tag: ${{ steps.time.outputs.time }}      
   release:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     needs: prepare-release    
     strategy:
       matrix:
         ##### EDIT ME #####      
-        EDITION: [cinnamon, mate, openbox, gnome, kde, i3, xfce, lxqt]
+        EDITION: [cinnamon, gnome, kde, i3, xfce,hyprland]
         BRANCH: [stable]
         SCOPE: [full]
         ###################
@@ -40,15 +43,16 @@ jobs:
       - id: image-build
         uses: manjaro/manjaro-iso-action@main
         with:
-          iso-profiles-repo: "https://github.com/RishonDev/manjaroiso-t2"
+          iso-profiles-repo: "https://github.com/RishonDev/manjaro-t2iso"
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
-          version: "26.0-t2"
-          kernel: linux612-t2
-          code-name: "Arh-Lihn-T2"
+          version: "26.02-t2"
+          kernel: linux618-t2
+          code-name: "Arh Linh "
           # providing a release-tag allows for github releases
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
+
       # delete the github release in case of cancellation or failure
       # refer to .github/workflows/cleanup-test-release.yml for rollback strategies concerning the other distribution channels
       - name: rollback github release

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Icon=manjaro-starter
+Icon=manjaro-hello
 Name=Manjaro Starter
-Exec=manjaro-starter
+Exec=manjaro-hello
 Terminal=false
 Hidden=false
 Comment=A tool providing access to documentation and support for new Manjaro users.

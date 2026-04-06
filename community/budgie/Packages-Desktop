@@ -3,7 +3,7 @@ alsa-firmware
 baobab
 dconf-editor
 dmidecode
-hexchat
+weechat
 gthumb
 lightdm
 lightdm-slick-greeter
@@ -18,17 +18,13 @@ manjaro-wallpapers-18.0
 wallpapers-2018
 manjaro-icons
 matcha-gtk-theme
-libappindicator-gtk3
-baobab
-dconf-editor
-hexchat
+libayatana-appindicator
 evince
 gnome-calculator
 gnome-control-center
 gnome-calendar
 gnome-disk-utility
 gnome-font-viewer
-gnome-themes-standard
 gnome-keyring
 gnome-settings-daemon
 gnome-system-monitor
@@ -44,13 +40,11 @@ sushi
 gedit
 firefox
 gparted
-grilo-plugins
 gst-libav
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-gucharmap
 gufw
 gvfs-afc
 gvfs-gphoto2
@@ -60,21 +54,17 @@ inxi
 imagewriter
 kvantum-theme-matcha
 mc # Midnight Commander
-#pacui
-mhwd-tui
 manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
-manjaro-hotfixes
-manjaro-pulse
+
+
 manjaro-settings-manager-notifier
 manjaro-hello
-manjaro-application-utility
 >extra snapd
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
-mousetweaks
 >multilib lib32-mesa-demos
 mutter
 nautilus
@@ -89,14 +79,13 @@ networkmanager-vpnc
 nss-mdns
 numlockx
 openresolv
-pamac-gtk
-pamac-snap-plugin
 polkit-gnome
 powertop
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
-sushi
+pipewire
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
 xdg-user-dirs
 xorg-server
 alsa-utils
@@ -107,7 +96,6 @@ ntp
 openssh
 terminus-font
 totem
-tracker
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -125,37 +113,24 @@ xorg-twm
 xorg-xinit
 yelp
 
-#extra depends for file-roller
->extra p7zip
+>extra 7zip
 >extra unrar
 >extra unace
 >extra lrzip
->extra onlyoffice
+>extra onlyoffice-desktopeditors
 >extra thunderbird
 >extra lollypop
->extra pidgin
 >extra uget
 >extra transmission-gtk
 >extra brasero
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 timeshift
-#>extra kernel-alive
 >extra libdvdcss
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
-#AUR complete support ( base devel )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
-manjaro-aur-support
+
+yay
+flatpak
+gnome-software

@@ -5,6 +5,7 @@ manjaro-live-systemd
 grub-theme-live-manjaro
 nbd
 mkinitcpio-nfs-utils
+mkinitcpio-archiso-t2
 
 ## GUI installer
 calamares
@@ -13,12 +14,11 @@ xdg-user-dirs
 
 ## system repair tools for chroot, partitioning, internet research, iso writer, SMART tool, ...
 memtest86+
-manjaro-tools-base
+manjaro-tools-base-git
 falkon
 imagewriter
 gsmartcontrol
 gparted
-# optional dependencies of gparted:
 dosfstools
 f2fs-tools
 btrfs-progs

@@ -1,5 +1,6 @@
 manjaro-live-skel
 mkinitcpio-nfs-utils
+mkinitcpio-archiso-t2
 nbd
 grub-theme-live-manjaro
 squashfs-tools
