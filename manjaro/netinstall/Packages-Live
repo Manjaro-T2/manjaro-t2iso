@@ -4,6 +4,7 @@ feh
 
 manjaro-live-skel
 mkinitcpio-nfs-utils
+mkinitcpio-archiso-t2
 nbd
 network-manager-applet
 systemd
@@ -14,7 +15,7 @@ manjaro-system
 manjaro-live-base
 polkit
 udisks2
-upower
+t2-upower
 open-vm-tools
 qt5ct
 sddm-breath-theme
@@ -33,7 +34,6 @@ xf86-video-ati
 xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
-xf86-video-nouveau
 
 xf86-video-sisusb
 xf86-video-vesa

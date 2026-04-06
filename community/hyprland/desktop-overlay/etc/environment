@@ -10,5 +10,5 @@ LIBSEAT_BACKEND=logind
 
 # allow software renderers in hyprland
 WLR_RENDERER_ALLOW_SOFTWARE=1
-# for nouveau compatibility
+# compatibility fallback
 WLR_DRM_NO_MODIFIERS=1

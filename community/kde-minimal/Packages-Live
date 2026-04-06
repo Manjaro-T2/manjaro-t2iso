@@ -5,6 +5,7 @@ manjaro-live-systemd
 grub-theme-live-manjaro
 nbd
 mkinitcpio-nfs-utils
+mkinitcpio-archiso-t2
 
 ## GUI installer
 calamares

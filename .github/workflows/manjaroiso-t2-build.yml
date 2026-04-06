@@ -48,7 +48,7 @@ jobs:
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
           version: "26.02-t2"
-          kernel: linux612-t2
+          kernel: linux618-t2
           code-name: "Arh Linh "
           # providing a release-tag allows for github releases
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}

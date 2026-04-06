@@ -4,6 +4,7 @@ maia-console
 manjaro-architect-launcher
 
 mkinitcpio-nfs-utils
+mkinitcpio-archiso-t2
 nbd
 open-vm-tools
 manjaro-live-systemd

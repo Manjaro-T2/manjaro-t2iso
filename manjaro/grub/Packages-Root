@@ -7,7 +7,7 @@ filesystem
 gcc-libs
 glibc
 grub
-linux612-t2
+linux618-t2
 lsb-release
 >manjaro manjaro-release
 systemd-sysvcompat
@@ -18,5 +18,6 @@ gnupg
 curl
 ca-certificates-utils
 mkinitcpio-nfs-utils
+mkinitcpio-archiso-t2
 memtest86+
 licenses

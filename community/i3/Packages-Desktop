@@ -115,7 +115,7 @@ ttf-dejavu
 >extra ttf-indic-otf
 >extra ttf-liberation
 >basic ufw
-upower
+t2-upower
 vim
 >extra vibrancy-icons-teal
 viewnior

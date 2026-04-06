@@ -3,7 +3,7 @@ GRUB_TIMEOUT=5
 GRUB_TIMEOUT_STYLE=hidden
 GRUB_DISTRIBUTOR="Manjaro"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet udev.log_priority=3"
-GRUB_CMDLINE_LINUX="brcmfmac.feature_disable=0x82000"
+GRUB_CMDLINE_LINUX=""
 
 # If you want to enable the save default function, uncomment the following
 # line, and set GRUB_DEFAULT to saved.

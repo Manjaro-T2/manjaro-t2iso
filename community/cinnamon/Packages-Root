@@ -39,7 +39,7 @@ iproute2
 iptables
 iputils
 jfsutils
-linux612-t2
+linux618-t2
 less
 licenses
 linux-firmware-amdgpu
@@ -48,7 +48,6 @@ linux-firmware-broadcom
 linux-firmware-cirrus
 linux-firmware-intel
 linux-firmware-mediatek
-linux-firmware-nvidia
 linux-firmware-other
 linux-firmware-meta
 linux-firmware-realtek
