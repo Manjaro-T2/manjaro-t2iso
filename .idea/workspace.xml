@@ -5,405 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="Tweaks">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/manjaroiso-t2-build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/manjaroiso-t2-build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/budgie/desktop-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/community/budgie/desktop-overlay/etc/default/grub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/cinnamon/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/cinnamon/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/Packages-Root" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/cinnamon/desktop-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/community/cinnamon/desktop-overlay/etc/default/grub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/default/grub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/environment" beforeDir="false" afterPath="$PROJECT_DIR$/community/hyprland/desktop-overlay/etc/environment" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community/hyprland/user-repos.conf" beforeDir="false" afterPath="$PROJECT_DIR$/community/hyprland/user-repos.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/i3/Packages-Desktop" beforeDir="false" afterPath="$PROJECT_DIR$/community/i3/Packages-Desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/i3/desktop-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/community/i3/desktop-overlay/etc/default/grub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/kde-minimal/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/community/kde-minimal/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/kde-minimal/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/community/kde-minimal/Packages-Root" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/kde-minimal/desktop-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/community/kde-minimal/desktop-overlay/etc/default/grub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manjaro/architect/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/architect/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manjaro/bladebook/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/bladebook/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manjaro/grub/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/grub/Packages-Root" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manjaro/kde-dev/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/kde-dev/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manjaro/netinstall/Packages-Live" beforeDir="false" afterPath="$PROJECT_DIR$/manjaro/netinstall/Packages-Live" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/etc/X11/xorg.conf.d/20-amdgpu.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/etc/X11/xorg.conf.d/30-touchpad.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/etc/environment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/etc/gdm/custom.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/etc/pam.d/polkit-1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/etc/pam.d/sudo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/usr/share/backgrounds/manjaro-gnome/M2020G2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/usr/share/backgrounds/manjaro-gnome/M2020G3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/skel/.config/autostart/no-lock-screen.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/etc/sudoers.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-gnome/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/desktop-overlay/etc/yakuakerc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/live-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/beelink-oem-kde/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/desktop-overlay/etc/lightdm/lightdm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/desktop-overlay/etc/lightdm/slick-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/desktop-overlay/etc/profile.d/libreoffice-gtk2.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/desktop-overlay/etc/profile.d/libreoffice-gtk2.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/live-overlay/etc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-cinnamon/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/desktop-overlay/etc/environment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/desktop-overlay/etc/locale.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/desktop-overlay/etc/pam.d/polkit-1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/desktop-overlay/etc/pam.d/sudo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/skel/.config/autostart/no-lock-screen.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/etc/sudoers.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/usr/bin/update-check" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/usr/bin/update-checker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/usr/bin/update-command" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/usr/bin/update-notifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/live-overlay/usr/share" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-gnome/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/Packages-Mhwd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/desktop-overlay/etc/X11/xorg.conf.d/30-touchpad.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/desktop-overlay/etc/fonts/conf.d/70-no-bitmaps.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/desktop-overlay/etc/lightdm/lightdm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/desktop-overlay/etc/lightdm/slick-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/desktop-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/default/grub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/default/tlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/skel/.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/skel/.i3/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/etc/sudoers.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/live-overlay/usr/share" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-i3/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/etc/xdg/kdeglobals" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-kde/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/desktop-overlay/etc/fonts/conf.d/70-no-bitmaps.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/desktop-overlay/etc/sysctl.d/99-swappiness.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/live-overlay/etc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/bladebook-oem-xfce/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/Packages-Mhwd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/live-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-kde/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/Packages-Mhwd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/desktop-overlay/etc/fonts/conf.d/70-no-bitmaps.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/desktop-overlay/etc/lightdm/lightdm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/default/grub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/default/tlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/pam.d/su" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/skel/.config/manjaro/manjaro-settings-manager.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/etc/sudoers.d/g_wheel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/generic-oem-xfce/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/X11/xorg.conf.d/30-touchpad.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/default/grub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/sysctl.d/99-swappiness.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/etc/tlp.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/default/grub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/default/tlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/pam.d/su" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/skel/.config/manjaro/manjaro-settings-manager.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/etc/sudoers.d/g_wheel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-kde/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/X11/xorg.conf.d/30-touchpad.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/default/grub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/fonts/conf.d/70-no-bitmaps.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/lightdm/lightdm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/sysctl.d/99-swappiness.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/etc/tlp.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/live-overlay/etc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/infinitybookpro-oem-xfce/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/desktop-overlay/etc/yakuakerc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/live-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde-um350/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/desktop-overlay/etc/sysctl.d/50-max_user_watches.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/desktop-overlay/etc/yakuakerc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/live-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/minisforum-oem-kde/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/desktop-overlay/etc/optimus-manager/optimus-manager.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/live-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/slimbook-titan/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/X11/xorg.conf.d/30-touchpad.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/conf.d/lm_sensors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/default/tlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/fonts/conf.d/70-no-bitmaps.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/lightdm/lightdm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/lightdm/slick-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/sysctl.d/20-quiet-printk.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/etc/sysctl.d/99-swappiness.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/live-overlay/etc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/live-overlay/usr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/spitfire-oem-xfce/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/.gnome40new" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/default/useradd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/environment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/pam.d/polkit-1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/pam.d/sudo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/plymouth/plymouthd.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/skel/.config/autostart/caffeine.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/etc/systemd/logind.conf.d/20-kill-user-processes.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/desktop-overlay/var/lib/polkit-1/localauthority/10-vendor.d/gnome-initial-setup.pkla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/skel/.config/autostart/mntray.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/skel/.config/autostart/no-lock-screen.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/etc/sudoers.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-gnome/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/desktop-overlay/etc/pam.d/sddm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/desktop-overlay/etc/sddm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/default" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/localtime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/pam.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/kcmdisplayrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/kded_device_automounterrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/kscreenlockerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/kwalletrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/etc/skel/.config/manjaro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/live-overlay/usr/bin/calamares_polkit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-kde/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Live" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/Packages-Root" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/desktop-overlay/etc/X11/xorg.conf.d/70-synaptics.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/desktop-overlay/etc/fonts/conf.d/70-no-bitmaps.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/desktop-overlay/etc/lightdm/lightdm.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/desktop-overlay/usr/share/icons/default/index.theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/default/grub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/default/tlp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/fstab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/issue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/pam.d/su" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/skel/.config/autostart/calamares.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/skel/.config/autostart/manjaro-hello.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/skel/.config/manjaro/manjaro-settings-manager.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/etc/sudoers.d/g_wheel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/root/.config/Kvantum/kvantum.kvconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/live-overlay/root/.config/qt5ct/qt5ct.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oem/starlabs-oem-xfce/profile.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Packages-Live-Xorg" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Live-Xorg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Packages-Mhwd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Mhwd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/Packages-Root" beforeDir="false" afterPath="$PROJECT_DIR$/shared/Packages-Root" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/manjaro/live-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/shared/manjaro/live-overlay/etc/default/grub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/oem/live-overlay/etc/default/grub" beforeDir="false" afterPath="$PROJECT_DIR$/shared/oem/live-overlay/etc/default/grub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/user-repos.conf" beforeDir="false" afterPath="$PROJECT_DIR$/shared/user-repos.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,7 +18,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1166" />
+    <option name="cachedIndexableFilesCount" value="728" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -444,26 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;senpai&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rishon/Projects/T2Linux/manjaro-t2iso&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "mainline",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/rishon/Projects/T2Linux/manjaro-t2iso",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="da1da4a9-809c-4268-8bff-fa522b8931a9" name="Changes" comment="" />
@@ -474,6 +81,7 @@
       <workItem from="1772047992715" duration="1661000" />
       <workItem from="1772107831612" duration="4122000" />
       <workItem from="1775437486897" duration="1346000" />
+      <workItem from="1775487725563" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Tweaks">
       <option name="closed" value="true" />
