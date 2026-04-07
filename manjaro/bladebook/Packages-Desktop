@@ -24,7 +24,6 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 
@@ -63,7 +62,6 @@ m4
 make
 patch
 pkgconf
->multilib lib32-flex
 >extra git
 >extra patchutils
 >extra subversion
@@ -156,7 +154,6 @@ kdeconnect
 okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
->extra >i686 kget
 kdenetwork-filesharing
 khelpcenter
 kio-extras
@@ -236,10 +233,8 @@ xf86-input-libinput
 xf86-input-void
 
 ## Xorg Server and Graphics
->multilib lib32-libva-intel-driver
 libva-intel-driver
 mesa-demos
->multilib lib32-mesa-demos
 numlockx
 xdg-user-dirs
 xorg-server

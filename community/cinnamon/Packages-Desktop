@@ -56,7 +56,6 @@ icon-naming-utils
 inxi
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
->multilib lib32-flex
 libtool
 >extra libdvdcss
 >extra libgsf
@@ -79,7 +78,6 @@ manjaro-settings-manager-notifier
 >extra modemmanager
 >extra mousetweaks
 >extra mugshot
->multilib lib32-mesa-demos
 >extra nemo-fileroller
 >extra nemo
 >extra nemo-python

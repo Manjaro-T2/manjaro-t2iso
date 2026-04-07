@@ -25,7 +25,6 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libcanberra
->multilib lib32-libcanberra
 libdvdcss
 manjaro-alsa
 
@@ -197,16 +196,12 @@ xf86-input-libinput
 xf86-input-void
 
 ## Xorg Server and Graphics
->multilib lib32-libva-intel-driver
->multilib lib32-mesa
 >multilib libva
 
->multilib lib32-libva
 libva-intel-driver
 mesa
 libva
 mesa-demos
->multilib lib32-mesa-demos
 numlockx
 xdg-user-dirs
 xorg-server

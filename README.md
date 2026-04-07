@@ -1,5 +1,5 @@
 ### A HUGE SHOUTOUT to the people and organisations who made this project possible:
-1) [FaresMQA](https://github.com/FaresMQA/), for the (dotfiles)[[https://github.com/jetbrains](https://github.com/FaresMQA/manjaro-hyprland)].
+1) [FaresMQA](https://github.com/FaresMQA/), for the [dotfiles](https://github.com/FaresMQA/manjaro-hyprland).
 2) [Noa Himesaka](https://github.com/NoaHimesaka1873/),  one who maintained the project for a whole year.
 3) [The Manjaro Team, of course](https://manjaro.org)
 4) [Jetbrains](https://github.com/jetbrains) for their IDEs
@@ -46,10 +46,10 @@ Now this is the tricky part. In macOS(Or any other unix system), open the disk u
 
 On Linux you can use your disk utility manager, but it is easier to use the command line. Type `lsblk` and you should see a list of your drives. You can locate it using the sizes given, and use it to match the USB size on the drive. It should be having `sda` or `sdb`, etc. Ignore the ones followed by a number at the end, as that is your partitions. So assuming that your device is recognised as `sda`, your device file is `/dev/sda`.
 
-Now why is that important? Well all unix based systems recognise files as a file, and that's how it works. Now let's use `dd` to flash the image to the drive. Type `sudo dd if=`. Open your File Manager, drag and drop your ISO in the terminal. Then press Space, then type `if=`, and then type the device file(no spaces). Then type `bs=1M status=progress`
+Now why is that important? Well all unix based systems recognise files as a file, and that's how it works. Now let's use `dd` to flash the image to the drive. Type `sudo dd if=`. Open your File Manager, drag and drop your ISO in the terminal. Then press Space, then type `if=`, and then type the device file(no spaces).
 Assuming that your device `/dev/sda` or `/dev/disk1`
 ```
-sudo dd if=manjaro.iso of=/dev/sda bs=1M status=progress
+sudo dd if=manjaro.iso of=/dev/sda status=progress
 ```
 Note that input file and output file(`if` and `of`) can differ, so don't copy this command blindly. Note that all the contents of the drive will be erased, so backup the data if required. Now you can press enter to start writing to the disk. Let it finish copying the data to the disk, this will take atleast 15-30 mins, depending on the speed of the drive.
 # TLDR
@@ -66,6 +66,6 @@ Don't remove `status=progress` unless you want to stare at a blank terminal.
 
 # Note for the tech savvy
 1) This "Get started" page is written for everyone, even for the "I just want a working computer" guy
-2) Do not use balena Etcher. In my experience, its well known to break ISOs. The classic Rufus in DD mode does the same effect. On Linux/*nix based systems (Including macOS) the classic terminal is enough
+2) Do not use balena Etcher. In my experience, its known to break the ISOs from my end. The classic Rufus in DD mode does the same effect. On Linux/*nix based systems (Including macOS) the classic terminal is enough. *Use Balena Etcher at your own risk*
 # Final note
 You have now successfully have  created a Installation Media, you can now refer to the [t2linux.org](https://t2linux.org) for question. Note that this is no longer endorsed by the Linux T2 community, so please contact me through Github Discussions. This project is a fork of a discontinued Manjaro Watanare, a T2 Linux Operating system. It is currently maintained as a ameutur project.

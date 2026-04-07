@@ -50,7 +50,6 @@ htop
 inxi
 json-c
 kvantum-manjaro
->multilib lib32-flex
 >extra libdvdcss
 >extra libgpod
 libtool
@@ -76,7 +75,6 @@ mobile-broadband-provider-info
 modemmanager
 morc_menu
 mousepad
->multilib lib32-mesa-utils
 ncdu
 netctl
 networkmanager

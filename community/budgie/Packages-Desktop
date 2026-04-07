@@ -65,7 +65,6 @@ manjaro-hello
 mesa-demos
 mobile-broadband-provider-info
 modemmanager
->multilib lib32-mesa-demos
 mutter
 nautilus
 nautilus-admin

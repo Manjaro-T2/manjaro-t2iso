@@ -9,7 +9,6 @@ open-vm-tools
 libva-intel-driver
 mesa
 libva
->multilib lib32-libva
 libxaw
 libxpm
 libxvmc
@@ -19,17 +18,12 @@ vulkan-mesa-layers
 vulkan-swrast
 vulkan-virtio
 vulkan-icd-loader
->multilib lib32-mesa
->multilib lib32-libxvmc
->multilib lib32-primus
 opencl-mesa
 primus
 qemu-guest-agent
 virtualbox-guest-utils
 vulkan-radeon
->multilib lib32-vulkan-radeon
 vulkan-intel
->multilib lib32-vulkan-intel
 xf86-input-vmmouse
 xf86-video-amdgpu
 xf86-video-dummy
