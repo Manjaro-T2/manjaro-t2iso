@@ -8,6 +8,7 @@ gcc-libs
 glibc
 grub
 linux618-t2
+t2fanrd
 lsb-release
 >manjaro manjaro-release
 systemd-sysvcompat

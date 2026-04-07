@@ -20,9 +20,15 @@ jobs:
         uses: nanzm/get-time-action@v1.1
         with:
           format: 'YYYYMMDDHHmm'
+      - id: version
+        env:
+          RELEASE_TAG: ${{ steps.time.outputs.time }}
+        shell: bash
+        run: echo "version=${RELEASE_TAG:2:2}.${RELEASE_TAG:4:2}-t2" >> "$GITHUB_OUTPUT"
     outputs:
       # generate a common tag to be used in all elements of the matrix strategy
       release_tag: ${{ steps.time.outputs.time }}      
+      release_version: ${{ steps.version.outputs.version }}
   release:
     runs-on: ubuntu-latest
     needs: prepare-release    
@@ -41,7 +47,7 @@ jobs:
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
-          version: "26.02-t2"
+          version: ${{ needs.prepare-release.outputs.release_version }}
           kernel: linux618-t2
           code-name: "Arh Linh "
           # providing a release-tag allows for github releases
